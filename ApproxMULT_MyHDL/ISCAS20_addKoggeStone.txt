@@ -1,0 +1,5 @@
+The sum of error distance is 18520576
+The final MED is 282.6015625
+The total error time is 32841
+The final error rate is 0.5011138916015625
+The final normalized MED is 0.016392967372141957

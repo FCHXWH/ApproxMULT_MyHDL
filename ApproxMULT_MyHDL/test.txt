@@ -1,0 +1,2673 @@
+The total wrong times is 1
+The error rate is 0.125
+The total wrong times is 2
+The error rate is 0.16666666666666666
+The total wrong times is 3
+The error rate is 0.21428571428571427
+The total wrong times is 4
+The error rate is 0.26666666666666666
+The total wrong times is 5
+The error rate is 0.3125
+The total wrong times is 6
+The error rate is 0.3
+The total wrong times is 7
+The error rate is 0.3181818181818182
+The total wrong times is 8
+The error rate is 0.34782608695652173
+The total wrong times is 9
+The error rate is 0.375
+The total wrong times is 10
+The error rate is 0.38461538461538464
+The total wrong times is 11
+The error rate is 0.4074074074074074
+The total wrong times is 12
+The error rate is 0.42857142857142855
+The total wrong times is 13
+The error rate is 0.4482758620689655
+The total wrong times is 14
+The error rate is 0.4666666666666667
+The total wrong times is 15
+The error rate is 0.4838709677419355
+The total wrong times is 16
+The error rate is 0.5
+The total wrong times is 17
+The error rate is 0.4722222222222222
+The total wrong times is 18
+The error rate is 0.47368421052631576
+The total wrong times is 19
+The error rate is 0.48717948717948717
+The total wrong times is 20
+The error rate is 0.5
+The total wrong times is 21
+The error rate is 0.5
+The total wrong times is 22
+The error rate is 0.5116279069767442
+The total wrong times is 23
+The error rate is 0.5227272727272727
+The total wrong times is 24
+The error rate is 0.5333333333333333
+The total wrong times is 25
+The error rate is 0.5434782608695652
+The total wrong times is 26
+The error rate is 0.5531914893617021
+The total wrong times is 27
+The error rate is 0.5625
+The total wrong times is 28
+The error rate is 0.56
+The total wrong times is 29
+The error rate is 0.5686274509803921
+The total wrong times is 30
+The error rate is 0.5769230769230769
+The total wrong times is 31
+The error rate is 0.5849056603773585
+The total wrong times is 32
+The error rate is 0.5925925925925926
+The total wrong times is 33
+The error rate is 0.6
+The total wrong times is 34
+The error rate is 0.6071428571428571
+The total wrong times is 35
+The error rate is 0.6140350877192983
+The total wrong times is 36
+The error rate is 0.6206896551724138
+The total wrong times is 37
+The error rate is 0.6271186440677966
+The total wrong times is 38
+The error rate is 0.6333333333333333
+The total wrong times is 39
+The error rate is 0.639344262295082
+The total wrong times is 40
+The error rate is 0.6451612903225806
+The total wrong times is 41
+The error rate is 0.6507936507936508
+The total wrong times is 42
+The error rate is 0.65625
+The total wrong times is 43
+The error rate is 0.6323529411764706
+The total wrong times is 44
+The error rate is 0.6285714285714286
+The total wrong times is 45
+The error rate is 0.6338028169014085
+The total wrong times is 46
+The error rate is 0.6388888888888888
+The total wrong times is 47
+The error rate is 0.6351351351351351
+The total wrong times is 48
+The error rate is 0.64
+The total wrong times is 49
+The error rate is 0.6447368421052632
+The total wrong times is 50
+The error rate is 0.6493506493506493
+The total wrong times is 51
+The error rate is 0.6538461538461539
+The total wrong times is 52
+The error rate is 0.6582278481012658
+The total wrong times is 53
+The error rate is 0.6625
+The total wrong times is 54
+The error rate is 0.6585365853658537
+The total wrong times is 55
+The error rate is 0.6626506024096386
+The total wrong times is 56
+The error rate is 0.6666666666666666
+The total wrong times is 57
+The error rate is 0.6705882352941176
+The total wrong times is 58
+The error rate is 0.6744186046511628
+The total wrong times is 59
+The error rate is 0.6781609195402298
+The total wrong times is 60
+The error rate is 0.6818181818181818
+The total wrong times is 61
+The error rate is 0.6853932584269663
+The total wrong times is 62
+The error rate is 0.6888888888888889
+The total wrong times is 63
+The error rate is 0.6923076923076923
+The total wrong times is 64
+The error rate is 0.6956521739130435
+The total wrong times is 65
+The error rate is 0.6989247311827957
+The total wrong times is 66
+The error rate is 0.7021276595744681
+The total wrong times is 67
+The error rate is 0.7052631578947368
+The total wrong times is 68
+The error rate is 0.7083333333333334
+The total wrong times is 69
+The error rate is 0.7040816326530612
+The total wrong times is 70
+The error rate is 0.7070707070707071
+The total wrong times is 71
+The error rate is 0.71
+The total wrong times is 72
+The error rate is 0.7128712871287128
+The total wrong times is 73
+The error rate is 0.7156862745098039
+The total wrong times is 74
+The error rate is 0.7184466019417476
+The total wrong times is 75
+The error rate is 0.7211538461538461
+The total wrong times is 76
+The error rate is 0.7238095238095238
+The total wrong times is 77
+The error rate is 0.7264150943396226
+The total wrong times is 78
+The error rate is 0.7289719626168224
+The total wrong times is 79
+The error rate is 0.7314814814814815
+The total wrong times is 80
+The error rate is 0.7339449541284404
+The total wrong times is 81
+The error rate is 0.7363636363636363
+The total wrong times is 82
+The error rate is 0.7387387387387387
+The total wrong times is 83
+The error rate is 0.7410714285714286
+The total wrong times is 84
+The error rate is 0.7433628318584071
+The total wrong times is 85
+The error rate is 0.7456140350877193
+The total wrong times is 86
+The error rate is 0.7478260869565218
+The total wrong times is 87
+The error rate is 0.75
+The total wrong times is 88
+The error rate is 0.7521367521367521
+The total wrong times is 89
+The error rate is 0.7542372881355932
+The total wrong times is 90
+The error rate is 0.7563025210084033
+The total wrong times is 91
+The error rate is 0.7583333333333333
+The total wrong times is 92
+The error rate is 0.7603305785123967
+The total wrong times is 93
+The error rate is 0.7622950819672131
+The total wrong times is 94
+The error rate is 0.7642276422764228
+The total wrong times is 95
+The error rate is 0.7661290322580645
+The total wrong times is 96
+The error rate is 0.768
+The total wrong times is 97
+The error rate is 0.7698412698412699
+The total wrong times is 98
+The error rate is 0.7716535433070866
+The total wrong times is 99
+The error rate is 0.7734375
+The total wrong times is 100
+The error rate is 0.7575757575757576
+The total wrong times is 101
+The error rate is 0.753731343283582
+The total wrong times is 102
+The error rate is 0.7555555555555555
+The total wrong times is 103
+The error rate is 0.7573529411764706
+The total wrong times is 104
+The error rate is 0.7536231884057971
+The total wrong times is 105
+The error rate is 0.7553956834532374
+The total wrong times is 106
+The error rate is 0.7571428571428571
+The total wrong times is 107
+The error rate is 0.7588652482269503
+The total wrong times is 108
+The error rate is 0.7605633802816901
+The total wrong times is 109
+The error rate is 0.7622377622377622
+The total wrong times is 110
+The error rate is 0.7638888888888888
+The total wrong times is 111
+The error rate is 0.7602739726027398
+The total wrong times is 112
+The error rate is 0.7619047619047619
+The total wrong times is 113
+The error rate is 0.7635135135135135
+The total wrong times is 114
+The error rate is 0.7651006711409396
+The total wrong times is 115
+The error rate is 0.7666666666666667
+The total wrong times is 116
+The error rate is 0.7682119205298014
+The total wrong times is 117
+The error rate is 0.7697368421052632
+The total wrong times is 118
+The error rate is 0.7712418300653595
+The total wrong times is 119
+The error rate is 0.7727272727272727
+The total wrong times is 120
+The error rate is 0.7741935483870968
+The total wrong times is 121
+The error rate is 0.7756410256410257
+The total wrong times is 122
+The error rate is 0.7770700636942676
+The total wrong times is 123
+The error rate is 0.7784810126582279
+The total wrong times is 124
+The error rate is 0.779874213836478
+The total wrong times is 125
+The error rate is 0.78125
+The total wrong times is 126
+The error rate is 0.7777777777777778
+The total wrong times is 127
+The error rate is 0.7791411042944786
+The total wrong times is 128
+The error rate is 0.7804878048780488
+The total wrong times is 129
+The error rate is 0.7818181818181819
+The total wrong times is 130
+The error rate is 0.7831325301204819
+The total wrong times is 131
+The error rate is 0.7844311377245509
+The total wrong times is 132
+The error rate is 0.7857142857142857
+The total wrong times is 133
+The error rate is 0.7869822485207101
+The total wrong times is 134
+The error rate is 0.788235294117647
+The total wrong times is 135
+The error rate is 0.7894736842105263
+The total wrong times is 136
+The error rate is 0.7906976744186046
+The total wrong times is 137
+The error rate is 0.791907514450867
+The total wrong times is 138
+The error rate is 0.7931034482758621
+The total wrong times is 139
+The error rate is 0.7942857142857143
+The total wrong times is 140
+The error rate is 0.7954545454545454
+The total wrong times is 141
+The error rate is 0.7966101694915254
+The total wrong times is 142
+The error rate is 0.797752808988764
+The total wrong times is 143
+The error rate is 0.7988826815642458
+The total wrong times is 144
+The error rate is 0.8
+The total wrong times is 145
+The error rate is 0.8011049723756906
+The total wrong times is 146
+The error rate is 0.8021978021978022
+The total wrong times is 147
+The error rate is 0.8032786885245902
+The total wrong times is 148
+The error rate is 0.8043478260869565
+The total wrong times is 149
+The error rate is 0.8054054054054054
+The total wrong times is 150
+The error rate is 0.8064516129032258
+The total wrong times is 151
+The error rate is 0.8074866310160428
+The total wrong times is 152
+The error rate is 0.8085106382978723
+The total wrong times is 153
+The error rate is 0.8095238095238095
+The total wrong times is 154
+The error rate is 0.8105263157894737
+The total wrong times is 155
+The error rate is 0.8115183246073299
+The total wrong times is 156
+The error rate is 0.8125
+The total wrong times is 157
+The error rate is 0.8092783505154639
+The total wrong times is 158
+The error rate is 0.8102564102564103
+The total wrong times is 159
+The error rate is 0.8112244897959183
+The total wrong times is 160
+The error rate is 0.8121827411167513
+The total wrong times is 161
+The error rate is 0.8131313131313131
+The total wrong times is 162
+The error rate is 0.8140703517587939
+The total wrong times is 163
+The error rate is 0.815
+The total wrong times is 164
+The error rate is 0.8159203980099502
+The total wrong times is 165
+The error rate is 0.8168316831683168
+The total wrong times is 166
+The error rate is 0.8177339901477833
+The total wrong times is 167
+The error rate is 0.8186274509803921
+The total wrong times is 168
+The error rate is 0.8195121951219512
+The total wrong times is 169
+The error rate is 0.8203883495145631
+The total wrong times is 170
+The error rate is 0.821256038647343
+The total wrong times is 171
+The error rate is 0.8221153846153846
+The total wrong times is 172
+The error rate is 0.8229665071770335
+The total wrong times is 173
+The error rate is 0.8238095238095238
+The total wrong times is 174
+The error rate is 0.8246445497630331
+The total wrong times is 175
+The error rate is 0.8254716981132075
+The total wrong times is 176
+The error rate is 0.8262910798122066
+The total wrong times is 177
+The error rate is 0.8271028037383178
+The total wrong times is 178
+The error rate is 0.827906976744186
+The total wrong times is 179
+The error rate is 0.8287037037037037
+The total wrong times is 180
+The error rate is 0.8294930875576036
+The total wrong times is 181
+The error rate is 0.8302752293577982
+The total wrong times is 182
+The error rate is 0.8310502283105022
+The total wrong times is 183
+The error rate is 0.8318181818181818
+The total wrong times is 184
+The error rate is 0.832579185520362
+The total wrong times is 185
+The error rate is 0.8333333333333334
+The total wrong times is 186
+The error rate is 0.8340807174887892
+The total wrong times is 187
+The error rate is 0.8348214285714286
+The total wrong times is 188
+The error rate is 0.8355555555555556
+The total wrong times is 189
+The error rate is 0.8362831858407079
+The total wrong times is 190
+The error rate is 0.8370044052863436
+The total wrong times is 191
+The error rate is 0.8377192982456141
+The total wrong times is 192
+The error rate is 0.8384279475982532
+The total wrong times is 193
+The error rate is 0.8391304347826087
+The total wrong times is 194
+The error rate is 0.8398268398268398
+The total wrong times is 195
+The error rate is 0.8405172413793104
+The total wrong times is 196
+The error rate is 0.8412017167381974
+The total wrong times is 197
+The error rate is 0.8418803418803419
+The total wrong times is 198
+The error rate is 0.8425531914893617
+The total wrong times is 199
+The error rate is 0.8432203389830508
+The total wrong times is 200
+The error rate is 0.8438818565400844
+The total wrong times is 201
+The error rate is 0.8445378151260504
+The total wrong times is 202
+The error rate is 0.8451882845188284
+The total wrong times is 203
+The error rate is 0.8458333333333333
+The total wrong times is 204
+The error rate is 0.8464730290456431
+The total wrong times is 205
+The error rate is 0.8471074380165289
+The total wrong times is 206
+The error rate is 0.8477366255144033
+The total wrong times is 207
+The error rate is 0.8483606557377049
+The total wrong times is 208
+The error rate is 0.8489795918367347
+The total wrong times is 209
+The error rate is 0.8495934959349594
+The total wrong times is 210
+The error rate is 0.8502024291497976
+The total wrong times is 211
+The error rate is 0.8508064516129032
+The total wrong times is 212
+The error rate is 0.8514056224899599
+The total wrong times is 213
+The error rate is 0.852
+The total wrong times is 214
+The error rate is 0.852589641434263
+The total wrong times is 215
+The error rate is 0.8531746031746031
+The total wrong times is 216
+The error rate is 0.8537549407114624
+The total wrong times is 217
+The error rate is 0.8543307086614174
+The total wrong times is 218
+The error rate is 0.8549019607843137
+The total wrong times is 219
+The error rate is 0.85546875
+The total wrong times is 220
+The error rate is 0.8333333333333334
+The total wrong times is 221
+The error rate is 0.8246268656716418
+The total wrong times is 222
+The error rate is 0.8222222222222222
+The total wrong times is 223
+The error rate is 0.8228782287822878
+The total wrong times is 224
+The error rate is 0.8235294117647058
+The total wrong times is 225
+The error rate is 0.8152173913043478
+The total wrong times is 226
+The error rate is 0.8129496402877698
+The total wrong times is 227
+The error rate is 0.8136200716845878
+The total wrong times is 228
+The error rate is 0.8142857142857143
+The total wrong times is 229
+The error rate is 0.8120567375886525
+The total wrong times is 230
+The error rate is 0.8127208480565371
+The total wrong times is 231
+The error rate is 0.8133802816901409
+The total wrong times is 232
+The error rate is 0.8140350877192982
+The total wrong times is 233
+The error rate is 0.8146853146853147
+The total wrong times is 234
+The error rate is 0.8153310104529616
+The total wrong times is 235
+The error rate is 0.8159722222222222
+The total wrong times is 236
+The error rate is 0.8082191780821918
+The total wrong times is 237
+The error rate is 0.8061224489795918
+The total wrong times is 238
+The error rate is 0.8067796610169492
+The total wrong times is 239
+The error rate is 0.8074324324324325
+The total wrong times is 240
+The error rate is 0.8053691275167785
+The total wrong times is 241
+The error rate is 0.8060200668896321
+The total wrong times is 242
+The error rate is 0.8066666666666666
+The total wrong times is 243
+The error rate is 0.8073089700996677
+The total wrong times is 244
+The error rate is 0.8079470198675497
+The total wrong times is 245
+The error rate is 0.8085808580858086
+The total wrong times is 246
+The error rate is 0.8092105263157895
+The total wrong times is 247
+The error rate is 0.8071895424836601
+The total wrong times is 248
+The error rate is 0.8078175895765473
+The total wrong times is 249
+The error rate is 0.8084415584415584
+The total wrong times is 250
+The error rate is 0.8090614886731392
+The total wrong times is 251
+The error rate is 0.8096774193548387
+The total wrong times is 252
+The error rate is 0.8102893890675241
+The total wrong times is 253
+The error rate is 0.8108974358974359
+The total wrong times is 254
+The error rate is 0.8115015974440895
+The total wrong times is 255
+The error rate is 0.8121019108280255
+The total wrong times is 256
+The error rate is 0.8126984126984127
+The total wrong times is 257
+The error rate is 0.8132911392405063
+The total wrong times is 258
+The error rate is 0.8138801261829653
+The total wrong times is 259
+The error rate is 0.8144654088050315
+The total wrong times is 260
+The error rate is 0.8150470219435737
+The total wrong times is 261
+The error rate is 0.815625
+The total wrong times is 262
+The error rate is 0.808641975308642
+The total wrong times is 263
+The error rate is 0.8067484662576687
+The total wrong times is 264
+The error rate is 0.8073394495412844
+The total wrong times is 265
+The error rate is 0.8079268292682927
+The total wrong times is 266
+The error rate is 0.806060606060606
+The total wrong times is 267
+The error rate is 0.8066465256797583
+The total wrong times is 268
+The error rate is 0.8072289156626506
+The total wrong times is 269
+The error rate is 0.8078078078078078
+The total wrong times is 270
+The error rate is 0.8083832335329342
+The total wrong times is 271
+The error rate is 0.808955223880597
+The total wrong times is 272
+The error rate is 0.8095238095238095
+The total wrong times is 273
+The error rate is 0.8076923076923077
+The total wrong times is 274
+The error rate is 0.8082595870206489
+The total wrong times is 275
+The error rate is 0.8088235294117647
+The total wrong times is 276
+The error rate is 0.8093841642228738
+The total wrong times is 277
+The error rate is 0.8099415204678363
+The total wrong times is 278
+The error rate is 0.8104956268221575
+The total wrong times is 279
+The error rate is 0.811046511627907
+The total wrong times is 280
+The error rate is 0.8115942028985508
+The total wrong times is 281
+The error rate is 0.8121387283236994
+The total wrong times is 282
+The error rate is 0.8126801152737753
+The total wrong times is 283
+The error rate is 0.8132183908045977
+The total wrong times is 284
+The error rate is 0.8137535816618912
+The total wrong times is 285
+The error rate is 0.8142857142857143
+The total wrong times is 286
+The error rate is 0.8148148148148148
+The total wrong times is 287
+The error rate is 0.8153409090909091
+The total wrong times is 288
+The error rate is 0.8135593220338984
+The total wrong times is 289
+The error rate is 0.8140845070422535
+The total wrong times is 290
+The error rate is 0.8146067415730337
+The total wrong times is 291
+The error rate is 0.8151260504201681
+The total wrong times is 292
+The error rate is 0.8156424581005587
+The total wrong times is 293
+The error rate is 0.8161559888579387
+The total wrong times is 294
+The error rate is 0.8166666666666667
+The total wrong times is 295
+The error rate is 0.817174515235457
+The total wrong times is 296
+The error rate is 0.8176795580110497
+The total wrong times is 297
+The error rate is 0.8181818181818182
+The total wrong times is 298
+The error rate is 0.8186813186813187
+The total wrong times is 299
+The error rate is 0.8191780821917808
+The total wrong times is 300
+The error rate is 0.819672131147541
+The total wrong times is 301
+The error rate is 0.8201634877384196
+The total wrong times is 302
+The error rate is 0.8206521739130435
+The total wrong times is 303
+The error rate is 0.8211382113821138
+The total wrong times is 304
+The error rate is 0.8216216216216217
+The total wrong times is 305
+The error rate is 0.8221024258760108
+The total wrong times is 306
+The error rate is 0.8225806451612904
+The total wrong times is 307
+The error rate is 0.8230563002680965
+The total wrong times is 308
+The error rate is 0.8235294117647058
+The total wrong times is 309
+The error rate is 0.824
+The total wrong times is 310
+The error rate is 0.824468085106383
+The total wrong times is 311
+The error rate is 0.8249336870026526
+The total wrong times is 312
+The error rate is 0.8253968253968254
+The total wrong times is 313
+The error rate is 0.8258575197889182
+The total wrong times is 314
+The error rate is 0.8263157894736842
+The total wrong times is 315
+The error rate is 0.8267716535433071
+The total wrong times is 316
+The error rate is 0.8272251308900523
+The total wrong times is 317
+The error rate is 0.8276762402088773
+The total wrong times is 318
+The error rate is 0.828125
+The total wrong times is 319
+The error rate is 0.8137755102040817
+The total wrong times is 320
+The error rate is 0.8080808080808081
+The total wrong times is 321
+The error rate is 0.8065326633165829
+The total wrong times is 322
+The error rate is 0.8070175438596491
+The total wrong times is 323
+The error rate is 0.8075
+The total wrong times is 324
+The error rate is 0.8039702233250621
+The total wrong times is 325
+The error rate is 0.8044554455445545
+The total wrong times is 326
+The error rate is 0.8049382716049382
+The total wrong times is 327
+The error rate is 0.8054187192118226
+The total wrong times is 328
+The error rate is 0.8058968058968059
+The total wrong times is 329
+The error rate is 0.8063725490196079
+The total wrong times is 330
+The error rate is 0.8068459657701712
+The total wrong times is 331
+The error rate is 0.8073170731707318
+The total wrong times is 332
+The error rate is 0.8077858880778589
+The total wrong times is 333
+The error rate is 0.808252427184466
+The total wrong times is 334
+The error rate is 0.8087167070217918
+The total wrong times is 335
+The error rate is 0.8091787439613527
+The total wrong times is 336
+The error rate is 0.8096385542168675
+The total wrong times is 337
+The error rate is 0.8100961538461539
+The total wrong times is 338
+The error rate is 0.8066825775656324
+The total wrong times is 339
+The error rate is 0.8071428571428572
+The total wrong times is 340
+The error rate is 0.8076009501187649
+The total wrong times is 341
+The error rate is 0.8080568720379147
+The total wrong times is 342
+The error rate is 0.8085106382978723
+The total wrong times is 343
+The error rate is 0.8089622641509434
+The total wrong times is 344
+The error rate is 0.8094117647058824
+The total wrong times is 345
+The error rate is 0.8098591549295775
+The total wrong times is 346
+The error rate is 0.810304449648712
+The total wrong times is 347
+The error rate is 0.8107476635514018
+The total wrong times is 348
+The error rate is 0.8111888111888111
+The total wrong times is 349
+The error rate is 0.8116279069767441
+The total wrong times is 350
+The error rate is 0.8120649651972158
+The total wrong times is 351
+The error rate is 0.8125
+The total wrong times is 352
+The error rate is 0.8110599078341014
+The total wrong times is 353
+The error rate is 0.8114942528735632
+The total wrong times is 354
+The error rate is 0.8119266055045872
+The total wrong times is 355
+The error rate is 0.8123569794050344
+The total wrong times is 356
+The error rate is 0.8127853881278538
+The total wrong times is 357
+The error rate is 0.8132118451025057
+The total wrong times is 358
+The error rate is 0.8136363636363636
+The total wrong times is 359
+The error rate is 0.8140589569160998
+The total wrong times is 360
+The error rate is 0.8144796380090498
+The total wrong times is 361
+The error rate is 0.8148984198645598
+The total wrong times is 362
+The error rate is 0.8153153153153153
+The total wrong times is 363
+The error rate is 0.8157303370786517
+The total wrong times is 364
+The error rate is 0.8161434977578476
+The total wrong times is 365
+The error rate is 0.8165548098434005
+The total wrong times is 366
+The error rate is 0.8169642857142857
+The total wrong times is 367
+The error rate is 0.8137472283813747
+The total wrong times is 368
+The error rate is 0.8141592920353983
+The total wrong times is 369
+The error rate is 0.8145695364238411
+The total wrong times is 370
+The error rate is 0.8149779735682819
+The total wrong times is 371
+The error rate is 0.8153846153846154
+The total wrong times is 372
+The error rate is 0.8157894736842105
+The total wrong times is 373
+The error rate is 0.8161925601750547
+The total wrong times is 374
+The error rate is 0.8165938864628821
+The total wrong times is 375
+The error rate is 0.8169934640522876
+The total wrong times is 376
+The error rate is 0.8173913043478261
+The total wrong times is 377
+The error rate is 0.8177874186550976
+The total wrong times is 378
+The error rate is 0.8181818181818182
+The total wrong times is 379
+The error rate is 0.8185745140388769
+The total wrong times is 380
+The error rate is 0.8189655172413793
+The total wrong times is 381
+The error rate is 0.8175965665236051
+The total wrong times is 382
+The error rate is 0.8179871520342612
+The total wrong times is 383
+The error rate is 0.8183760683760684
+The total wrong times is 384
+The error rate is 0.8187633262260128
+The total wrong times is 385
+The error rate is 0.8191489361702128
+The total wrong times is 386
+The error rate is 0.8195329087048833
+The total wrong times is 387
+The error rate is 0.8199152542372882
+The total wrong times is 388
+The error rate is 0.8202959830866807
+The total wrong times is 389
+The error rate is 0.820675105485232
+The total wrong times is 390
+The error rate is 0.8210526315789474
+The total wrong times is 391
+The error rate is 0.8214285714285714
+The total wrong times is 392
+The error rate is 0.8218029350104822
+The total wrong times is 393
+The error rate is 0.8221757322175732
+The total wrong times is 394
+The error rate is 0.8225469728601252
+The total wrong times is 395
+The error rate is 0.8229166666666666
+The total wrong times is 396
+The error rate is 0.8215767634854771
+The total wrong times is 397
+The error rate is 0.8219461697722568
+The total wrong times is 398
+The error rate is 0.8223140495867769
+The total wrong times is 399
+The error rate is 0.822680412371134
+The total wrong times is 400
+The error rate is 0.823045267489712
+The total wrong times is 401
+The error rate is 0.8234086242299795
+The total wrong times is 402
+The error rate is 0.8237704918032787
+The total wrong times is 403
+The error rate is 0.8241308793456033
+The total wrong times is 404
+The error rate is 0.8244897959183674
+The total wrong times is 405
+The error rate is 0.824847250509165
+The total wrong times is 406
+The error rate is 0.8252032520325203
+The total wrong times is 407
+The error rate is 0.8255578093306288
+The total wrong times is 408
+The error rate is 0.8259109311740891
+The total wrong times is 409
+The error rate is 0.8262626262626263
+The total wrong times is 410
+The error rate is 0.8266129032258065
+The total wrong times is 411
+The error rate is 0.8269617706237424
+The total wrong times is 412
+The error rate is 0.8273092369477911
+The total wrong times is 413
+The error rate is 0.8276553106212425
+The total wrong times is 414
+The error rate is 0.828
+The total wrong times is 415
+The error rate is 0.8283433133732535
+The total wrong times is 416
+The error rate is 0.8286852589641435
+The total wrong times is 417
+The error rate is 0.8290258449304175
+The total wrong times is 418
+The error rate is 0.8293650793650794
+The total wrong times is 419
+The error rate is 0.8297029702970297
+The total wrong times is 420
+The error rate is 0.8300395256916996
+The total wrong times is 421
+The error rate is 0.8303747534516766
+The total wrong times is 422
+The error rate is 0.8307086614173228
+The total wrong times is 423
+The error rate is 0.831041257367387
+The total wrong times is 424
+The error rate is 0.8313725490196079
+The total wrong times is 425
+The error rate is 0.8317025440313112
+The total wrong times is 426
+The error rate is 0.83203125
+The total wrong times is 427
+The error rate is 0.8211538461538461
+The total wrong times is 428
+The error rate is 0.816793893129771
+The total wrong times is 429
+The error rate is 0.8155893536121673
+The total wrong times is 430
+The error rate is 0.8159392789373814
+The total wrong times is 431
+The error rate is 0.8162878787878788
+The total wrong times is 432
+The error rate is 0.8120300751879699
+The total wrong times is 433
+The error rate is 0.8108614232209738
+The total wrong times is 434
+The error rate is 0.811214953271028
+The total wrong times is 435
+The error rate is 0.8115671641791045
+The total wrong times is 436
+The error rate is 0.8104089219330854
+The total wrong times is 437
+The error rate is 0.8107606679035251
+The total wrong times is 438
+The error rate is 0.8111111111111111
+The total wrong times is 439
+The error rate is 0.8114602587800369
+The total wrong times is 440
+The error rate is 0.8118081180811808
+The total wrong times is 441
+The error rate is 0.8121546961325967
+The total wrong times is 442
+The error rate is 0.8125
+The total wrong times is 443
+The error rate is 0.8083941605839416
+The total wrong times is 444
+The error rate is 0.8072727272727273
+The total wrong times is 445
+The error rate is 0.8076225045372051
+The total wrong times is 446
+The error rate is 0.8079710144927537
+The total wrong times is 447
+The error rate is 0.8068592057761733
+The total wrong times is 448
+The error rate is 0.8072072072072072
+The total wrong times is 449
+The error rate is 0.8075539568345323
+The total wrong times is 450
+The error rate is 0.8078994614003591
+The total wrong times is 451
+The error rate is 0.8082437275985663
+The total wrong times is 452
+The error rate is 0.8085867620751341
+The total wrong times is 453
+The error rate is 0.8089285714285714
+The total wrong times is 454
+The error rate is 0.8078291814946619
+The total wrong times is 455
+The error rate is 0.8081705150976909
+The total wrong times is 456
+The error rate is 0.8085106382978723
+The total wrong times is 457
+The error rate is 0.8088495575221238
+The total wrong times is 458
+The error rate is 0.8091872791519434
+The total wrong times is 459
+The error rate is 0.8095238095238095
+The total wrong times is 460
+The error rate is 0.8098591549295775
+The total wrong times is 461
+The error rate is 0.8101933216168717
+The total wrong times is 462
+The error rate is 0.8105263157894737
+The total wrong times is 463
+The error rate is 0.8108581436077058
+The total wrong times is 464
+The error rate is 0.8111888111888111
+The total wrong times is 465
+The error rate is 0.8115183246073299
+The total wrong times is 466
+The error rate is 0.8118466898954704
+The total wrong times is 467
+The error rate is 0.8121739130434783
+The total wrong times is 468
+The error rate is 0.8125
+The total wrong times is 469
+The error rate is 0.8086206896551724
+The total wrong times is 470
+The error rate is 0.8075601374570447
+The total wrong times is 471
+The error rate is 0.8078902229845626
+The total wrong times is 472
+The error rate is 0.8082191780821918
+The total wrong times is 473
+The error rate is 0.8071672354948806
+The total wrong times is 474
+The error rate is 0.807495741056218
+The total wrong times is 475
+The error rate is 0.8078231292517006
+The total wrong times is 476
+The error rate is 0.8081494057724957
+The total wrong times is 477
+The error rate is 0.8084745762711865
+The total wrong times is 478
+The error rate is 0.8087986463620981
+The total wrong times is 479
+The error rate is 0.8091216216216216
+The total wrong times is 480
+The error rate is 0.8080808080808081
+The total wrong times is 481
+The error rate is 0.8084033613445378
+The total wrong times is 482
+The error rate is 0.8087248322147651
+The total wrong times is 483
+The error rate is 0.8090452261306532
+The total wrong times is 484
+The error rate is 0.8093645484949833
+The total wrong times is 485
+The error rate is 0.8096828046744574
+The total wrong times is 486
+The error rate is 0.81
+The total wrong times is 487
+The error rate is 0.8103161397670549
+The total wrong times is 488
+The error rate is 0.8106312292358804
+The total wrong times is 489
+The error rate is 0.8109452736318408
+The total wrong times is 490
+The error rate is 0.8112582781456954
+The total wrong times is 491
+The error rate is 0.8115702479338843
+The total wrong times is 492
+The error rate is 0.8118811881188119
+The total wrong times is 493
+The error rate is 0.8121911037891268
+The total wrong times is 494
+The error rate is 0.8125
+The total wrong times is 495
+The error rate is 0.8088235294117647
+The total wrong times is 496
+The error rate is 0.8078175895765473
+The total wrong times is 497
+The error rate is 0.808130081300813
+The total wrong times is 498
+The error rate is 0.8084415584415584
+The total wrong times is 499
+The error rate is 0.8074433656957929
+The total wrong times is 500
+The error rate is 0.8077544426494345
+The total wrong times is 501
+The error rate is 0.8080645161290323
+The total wrong times is 502
+The error rate is 0.8083735909822867
+The total wrong times is 503
+The error rate is 0.8086816720257235
+The total wrong times is 504
+The error rate is 0.8089887640449438
+The total wrong times is 505
+The error rate is 0.8092948717948718
+The total wrong times is 506
+The error rate is 0.8083067092651757
+The total wrong times is 507
+The error rate is 0.8086124401913876
+The total wrong times is 508
+The error rate is 0.8089171974522293
+The total wrong times is 509
+The error rate is 0.809220985691574
+The total wrong times is 510
+The error rate is 0.8095238095238095
+The total wrong times is 511
+The error rate is 0.8098256735340729
+The total wrong times is 512
+The error rate is 0.810126582278481
+The total wrong times is 513
+The error rate is 0.8104265402843602
+The total wrong times is 514
+The error rate is 0.8107255520504731
+The total wrong times is 515
+The error rate is 0.8110236220472441
+The total wrong times is 516
+The error rate is 0.8113207547169812
+The total wrong times is 517
+The error rate is 0.8116169544740973
+The total wrong times is 518
+The error rate is 0.8119122257053292
+The total wrong times is 519
+The error rate is 0.812206572769953
+The total wrong times is 520
+The error rate is 0.8125
+The total wrong times is 521
+The error rate is 0.8090062111801242
+The total wrong times is 522
+The error rate is 0.8080495356037152
+The total wrong times is 523
+The error rate is 0.8083462132921174
+The total wrong times is 524
+The error rate is 0.808641975308642
+The total wrong times is 525
+The error rate is 0.8076923076923077
+The total wrong times is 526
+The error rate is 0.8079877112135176
+The total wrong times is 527
+The error rate is 0.808282208588957
+The total wrong times is 528
+The error rate is 0.8085758039816233
+The total wrong times is 529
+The error rate is 0.808868501529052
+The total wrong times is 530
+The error rate is 0.8091603053435115
+The total wrong times is 531
+The error rate is 0.8094512195121951
+The total wrong times is 532
+The error rate is 0.8085106382978723
+The total wrong times is 533
+The error rate is 0.8088012139605463
+The total wrong times is 534
+The error rate is 0.8090909090909091
+The total wrong times is 535
+The error rate is 0.8093797276853253
+The total wrong times is 536
+The error rate is 0.8096676737160121
+The total wrong times is 537
+The error rate is 0.8099547511312217
+The total wrong times is 538
+The error rate is 0.8102409638554217
+The total wrong times is 539
+The error rate is 0.8105263157894737
+The total wrong times is 540
+The error rate is 0.8108108108108109
+The total wrong times is 541
+The error rate is 0.8110944527736131
+The total wrong times is 542
+The error rate is 0.811377245508982
+The total wrong times is 543
+The error rate is 0.8116591928251121
+The total wrong times is 544
+The error rate is 0.8119402985074626
+The total wrong times is 545
+The error rate is 0.812220566318927
+The total wrong times is 546
+The error rate is 0.8125
+The total wrong times is 547
+The error rate is 0.8115727002967359
+The total wrong times is 548
+The error rate is 0.8118518518518518
+The total wrong times is 549
+The error rate is 0.8121301775147929
+The total wrong times is 550
+The error rate is 0.8124076809453471
+The total wrong times is 551
+The error rate is 0.8126843657817109
+The total wrong times is 552
+The error rate is 0.812960235640648
+The total wrong times is 553
+The error rate is 0.8132352941176471
+The total wrong times is 554
+The error rate is 0.8135095447870778
+The total wrong times is 555
+The error rate is 0.8137829912023461
+The total wrong times is 556
+The error rate is 0.8140556368960469
+The total wrong times is 557
+The error rate is 0.814327485380117
+The total wrong times is 558
+The error rate is 0.8145985401459854
+The total wrong times is 559
+The error rate is 0.814868804664723
+The total wrong times is 560
+The error rate is 0.8151382823871907
+The total wrong times is 561
+The error rate is 0.815406976744186
+The total wrong times is 562
+The error rate is 0.8156748911465893
+The total wrong times is 563
+The error rate is 0.8159420289855073
+The total wrong times is 564
+The error rate is 0.8162083936324168
+The total wrong times is 565
+The error rate is 0.8164739884393064
+The total wrong times is 566
+The error rate is 0.8167388167388168
+The total wrong times is 567
+The error rate is 0.8170028818443804
+The total wrong times is 568
+The error rate is 0.8172661870503597
+The total wrong times is 569
+The error rate is 0.8175287356321839
+The total wrong times is 570
+The error rate is 0.8177905308464849
+The total wrong times is 571
+The error rate is 0.8180515759312321
+The total wrong times is 572
+The error rate is 0.8183118741058655
+The total wrong times is 573
+The error rate is 0.8185714285714286
+The total wrong times is 574
+The error rate is 0.818830242510699
+The total wrong times is 575
+The error rate is 0.8190883190883191
+The total wrong times is 576
+The error rate is 0.8193456614509246
+The total wrong times is 577
+The error rate is 0.8196022727272727
+The total wrong times is 578
+The error rate is 0.8163841807909604
+The total wrong times is 579
+The error rate is 0.8154929577464789
+The total wrong times is 580
+The error rate is 0.8157524613220816
+The total wrong times is 581
+The error rate is 0.8160112359550562
+The total wrong times is 582
+The error rate is 0.8151260504201681
+The total wrong times is 583
+The error rate is 0.8153846153846154
+The total wrong times is 584
+The error rate is 0.8156424581005587
+The total wrong times is 585
+The error rate is 0.8158995815899581
+The total wrong times is 586
+The error rate is 0.8161559888579387
+The total wrong times is 587
+The error rate is 0.8164116828929068
+The total wrong times is 588
+The error rate is 0.8166666666666667
+The total wrong times is 589
+The error rate is 0.8157894736842105
+The total wrong times is 590
+The error rate is 0.8160442600276625
+The total wrong times is 591
+The error rate is 0.8162983425414365
+The total wrong times is 592
+The error rate is 0.8165517241379311
+The total wrong times is 593
+The error rate is 0.8168044077134986
+The total wrong times is 594
+The error rate is 0.8170563961485557
+The total wrong times is 595
+The error rate is 0.8173076923076923
+The total wrong times is 596
+The error rate is 0.8175582990397805
+The total wrong times is 597
+The error rate is 0.8178082191780822
+The total wrong times is 598
+The error rate is 0.8180574555403557
+The total wrong times is 599
+The error rate is 0.8183060109289617
+The total wrong times is 600
+The error rate is 0.8185538881309686
+The total wrong times is 601
+The error rate is 0.8188010899182562
+The total wrong times is 602
+The error rate is 0.819047619047619
+The total wrong times is 603
+The error rate is 0.8192934782608695
+The total wrong times is 604
+The error rate is 0.8184281842818428
+The total wrong times is 605
+The error rate is 0.8186738836265224
+The total wrong times is 606
+The error rate is 0.8189189189189189
+The total wrong times is 607
+The error rate is 0.8191632928475033
+The total wrong times is 608
+The error rate is 0.8194070080862533
+The total wrong times is 609
+The error rate is 0.819650067294751
+The total wrong times is 610
+The error rate is 0.8198924731182796
+The total wrong times is 611
+The error rate is 0.8201342281879195
+The total wrong times is 612
+The error rate is 0.8203753351206434
+The total wrong times is 613
+The error rate is 0.820615796519411
+The total wrong times is 614
+The error rate is 0.820855614973262
+The total wrong times is 615
+The error rate is 0.8210947930574098
+The total wrong times is 616
+The error rate is 0.8213333333333334
+The total wrong times is 617
+The error rate is 0.8215712383488681
+The total wrong times is 618
+The error rate is 0.8218085106382979
+The total wrong times is 619
+The error rate is 0.8220451527224436
+The total wrong times is 620
+The error rate is 0.8222811671087533
+The total wrong times is 621
+The error rate is 0.8225165562913908
+The total wrong times is 622
+The error rate is 0.8227513227513228
+The total wrong times is 623
+The error rate is 0.8229854689564069
+The total wrong times is 624
+The error rate is 0.8232189973614775
+The total wrong times is 625
+The error rate is 0.8234519104084321
+The total wrong times is 626
+The error rate is 0.8236842105263158
+The total wrong times is 627
+The error rate is 0.823915900131406
+The total wrong times is 628
+The error rate is 0.8241469816272966
+The total wrong times is 629
+The error rate is 0.8243774574049804
+The total wrong times is 630
+The error rate is 0.824607329842932
+The total wrong times is 631
+The error rate is 0.8248366013071895
+The total wrong times is 632
+The error rate is 0.825065274151436
+The total wrong times is 633
+The error rate is 0.8252933507170795
+The total wrong times is 634
+The error rate is 0.8255208333333334
+The total wrong times is 635
+The error rate is 0.8182989690721649
+The total wrong times is 636
+The error rate is 0.8153846153846154
+The total wrong times is 637
+The error rate is 0.8145780051150895
+The total wrong times is 638
+The error rate is 0.8148148148148148
+The total wrong times is 639
+The error rate is 0.8150510204081632
+The total wrong times is 640
+The error rate is 0.8121827411167513
+The total wrong times is 641
+The error rate is 0.8113924050632911
+The total wrong times is 642
+The error rate is 0.8116308470290771
+The total wrong times is 643
+The error rate is 0.8118686868686869
+The total wrong times is 644
+The error rate is 0.8110831234256927
+The total wrong times is 645
+The error rate is 0.8113207547169812
+The total wrong times is 646
+The error rate is 0.8115577889447236
+The total wrong times is 647
+The error rate is 0.8117942283563363
+The total wrong times is 648
+The error rate is 0.8120300751879699
+The total wrong times is 649
+The error rate is 0.8122653316645807
+The total wrong times is 650
+The error rate is 0.8125
+The total wrong times is 651
+The error rate is 0.8097014925373134
+The total wrong times is 652
+The error rate is 0.8089330024813896
+The total wrong times is 653
+The error rate is 0.8091697645600991
+The total wrong times is 654
+The error rate is 0.8094059405940595
+The total wrong times is 655
+The error rate is 0.808641975308642
+The total wrong times is 656
+The error rate is 0.8088779284833539
+The total wrong times is 657
+The error rate is 0.8091133004926109
+The total wrong times is 658
+The error rate is 0.8093480934809348
+The total wrong times is 659
+The error rate is 0.8095823095823096
+The total wrong times is 660
+The error rate is 0.8098159509202454
+The total wrong times is 661
+The error rate is 0.8100490196078431
+The total wrong times is 662
+The error rate is 0.8092909535452323
+The total wrong times is 663
+The error rate is 0.8095238095238095
+The total wrong times is 664
+The error rate is 0.8097560975609757
+The total wrong times is 665
+The error rate is 0.8099878197320342
+The total wrong times is 666
+The error rate is 0.8102189781021898
+The total wrong times is 667
+The error rate is 0.81044957472661
+The total wrong times is 668
+The error rate is 0.8106796116504854
+The total wrong times is 669
+The error rate is 0.8109090909090909
+The total wrong times is 670
+The error rate is 0.8111380145278451
+The total wrong times is 671
+The error rate is 0.81136638452237
+The total wrong times is 672
+The error rate is 0.8115942028985508
+The total wrong times is 673
+The error rate is 0.8118214716525934
+The total wrong times is 674
+The error rate is 0.8120481927710843
+The total wrong times is 675
+The error rate is 0.8122743682310469
+The total wrong times is 676
+The error rate is 0.8125
+The total wrong times is 677
+The error rate is 0.805952380952381
+The total wrong times is 678
+The error rate is 0.8033175355450237
+The total wrong times is 679
+The error rate is 0.8026004728132388
+The total wrong times is 680
+The error rate is 0.8028335301062574
+The total wrong times is 681
+The error rate is 0.8030660377358491
+The total wrong times is 682
+The error rate is 0.8004694835680751
+The total wrong times is 683
+The error rate is 0.7997658079625293
+The total wrong times is 684
+The error rate is 0.8
+The total wrong times is 685
+The error rate is 0.8002336448598131
+The total wrong times is 686
+The error rate is 0.7995337995337995
+The total wrong times is 687
+The error rate is 0.79976717112922
+The total wrong times is 688
+The error rate is 0.8
+The total wrong times is 689
+The error rate is 0.8002322880371661
+The total wrong times is 690
+The error rate is 0.8004640371229699
+The total wrong times is 691
+The error rate is 0.8006952491309386
+The total wrong times is 692
+The error rate is 0.8009259259259259
+The total wrong times is 693
+The error rate is 0.7983870967741935
+The total wrong times is 694
+The error rate is 0.7977011494252874
+The total wrong times is 695
+The error rate is 0.7979334098737084
+The total wrong times is 696
+The error rate is 0.7981651376146789
+The total wrong times is 697
+The error rate is 0.7974828375286042
+The total wrong times is 698
+The error rate is 0.7977142857142857
+The total wrong times is 699
+The error rate is 0.797945205479452
+The total wrong times is 700
+The error rate is 0.798175598631699
+The total wrong times is 701
+The error rate is 0.7984054669703873
+The total wrong times is 702
+The error rate is 0.7986348122866894
+The total wrong times is 703
+The error rate is 0.7988636363636363
+The total wrong times is 704
+The error rate is 0.7981859410430839
+The total wrong times is 705
+The error rate is 0.79841449603624
+The total wrong times is 706
+The error rate is 0.7986425339366516
+The total wrong times is 707
+The error rate is 0.7988700564971751
+The total wrong times is 708
+The error rate is 0.7990970654627539
+The total wrong times is 709
+The error rate is 0.7993235625704622
+The total wrong times is 710
+The error rate is 0.7995495495495496
+The total wrong times is 711
+The error rate is 0.7997750281214848
+The total wrong times is 712
+The error rate is 0.8
+The total wrong times is 713
+The error rate is 0.8002244668911336
+The total wrong times is 714
+The error rate is 0.8004484304932735
+The total wrong times is 715
+The error rate is 0.8006718924972005
+The total wrong times is 716
+The error rate is 0.8008948545861297
+The total wrong times is 717
+The error rate is 0.8011173184357542
+The total wrong times is 718
+The error rate is 0.8013392857142857
+The total wrong times is 719
+The error rate is 0.7953539823008849
+The total wrong times is 720
+The error rate is 0.7929515418502202
+The total wrong times is 721
+The error rate is 0.7923076923076923
+The total wrong times is 722
+The error rate is 0.7925356750823271
+The total wrong times is 723
+The error rate is 0.7927631578947368
+The total wrong times is 724
+The error rate is 0.7903930131004366
+The total wrong times is 725
+The error rate is 0.789760348583878
+The total wrong times is 726
+The error rate is 0.7899891186071817
+The total wrong times is 727
+The error rate is 0.7902173913043479
+The total wrong times is 728
+The error rate is 0.789587852494577
+The total wrong times is 729
+The error rate is 0.789815817984832
+The total wrong times is 730
+The error rate is 0.79004329004329
+The total wrong times is 731
+The error rate is 0.7902702702702703
+The total wrong times is 732
+The error rate is 0.7904967602591793
+The total wrong times is 733
+The error rate is 0.790722761596548
+The total wrong times is 734
+The error rate is 0.790948275862069
+The total wrong times is 735
+The error rate is 0.7886266094420601
+The total wrong times is 736
+The error rate is 0.7880085653104925
+The total wrong times is 737
+The error rate is 0.788235294117647
+The total wrong times is 738
+The error rate is 0.7884615384615384
+The total wrong times is 739
+The error rate is 0.7878464818763327
+The total wrong times is 740
+The error rate is 0.7880724174653887
+The total wrong times is 741
+The error rate is 0.7882978723404256
+The total wrong times is 742
+The error rate is 0.7885228480340064
+The total wrong times is 743
+The error rate is 0.7887473460721869
+The total wrong times is 744
+The error rate is 0.7889713679745494
+The total wrong times is 745
+The error rate is 0.7891949152542372
+The total wrong times is 746
+The error rate is 0.7885835095137421
+The total wrong times is 747
+The error rate is 0.7888067581837381
+The total wrong times is 748
+The error rate is 0.7890295358649789
+The total wrong times is 749
+The error rate is 0.7892518440463646
+The total wrong times is 750
+The error rate is 0.7894736842105263
+The total wrong times is 751
+The error rate is 0.7896950578338591
+The total wrong times is 752
+The error rate is 0.7899159663865546
+The total wrong times is 753
+The error rate is 0.7901364113326338
+The total wrong times is 754
+The error rate is 0.790356394129979
+The total wrong times is 755
+The error rate is 0.7905759162303665
+The total wrong times is 756
+The error rate is 0.7907949790794979
+The total wrong times is 757
+The error rate is 0.7910135841170324
+The total wrong times is 758
+The error rate is 0.791231732776618
+The total wrong times is 759
+The error rate is 0.7914494264859229
+The total wrong times is 760
+The error rate is 0.7916666666666666
+The total wrong times is 761
+The error rate is 0.7861570247933884
+The total wrong times is 762
+The error rate is 0.7839506172839507
+The total wrong times is 763
+The error rate is 0.7833675564681725
+The total wrong times is 764
+The error rate is 0.7835897435897435
+The total wrong times is 765
+The error rate is 0.7838114754098361
+The total wrong times is 766
+The error rate is 0.7816326530612245
+The total wrong times is 767
+The error rate is 0.7810590631364562
+The total wrong times is 768
+The error rate is 0.7812817904374364
+The total wrong times is 769
+The error rate is 0.7815040650406504
+The total wrong times is 770
+The error rate is 0.7809330628803245
+The total wrong times is 771
+The error rate is 0.7811550151975684
+The total wrong times is 772
+The error rate is 0.7813765182186235
+The total wrong times is 773
+The error rate is 0.78159757330637
+The total wrong times is 774
+The error rate is 0.7818181818181819
+The total wrong times is 775
+The error rate is 0.7820383451059536
+The total wrong times is 776
+The error rate is 0.782258064516129
+The total wrong times is 777
+The error rate is 0.7801204819277109
+The total wrong times is 778
+The error rate is 0.779559118236473
+The total wrong times is 779
+The error rate is 0.7797797797797797
+The total wrong times is 780
+The error rate is 0.78
+The total wrong times is 781
+The error rate is 0.779441117764471
+The total wrong times is 782
+The error rate is 0.7796610169491526
+The total wrong times is 783
+The error rate is 0.7798804780876494
+The total wrong times is 784
+The error rate is 0.7800995024875622
+The total wrong times is 785
+The error rate is 0.7803180914512923
+The total wrong times is 786
+The error rate is 0.7805362462760675
+The total wrong times is 787
+The error rate is 0.7807539682539683
+The total wrong times is 788
+The error rate is 0.7801980198019802
+The total wrong times is 789
+The error rate is 0.7804154302670623
+The total wrong times is 790
+The error rate is 0.7806324110671937
+The total wrong times is 791
+The error rate is 0.7808489634748272
+The total wrong times is 792
+The error rate is 0.7810650887573964
+The total wrong times is 793
+The error rate is 0.7812807881773399
+The total wrong times is 794
+The error rate is 0.781496062992126
+The total wrong times is 795
+The error rate is 0.7817109144542773
+The total wrong times is 796
+The error rate is 0.7819253438113949
+The total wrong times is 797
+The error rate is 0.7821393523061825
+The total wrong times is 798
+The error rate is 0.7823529411764706
+The total wrong times is 799
+The error rate is 0.7825661116552399
+The total wrong times is 800
+The error rate is 0.7827788649706457
+The total wrong times is 801
+The error rate is 0.782991202346041
+The total wrong times is 802
+The error rate is 0.783203125
+The total wrong times is 803
+The error rate is 0.7781007751937985
+The total wrong times is 804
+The error rate is 0.7760617760617761
+The total wrong times is 805
+The error rate is 0.7755298651252408
+The total wrong times is 806
+The error rate is 0.7757459095283927
+The total wrong times is 807
+The error rate is 0.7759615384615385
+The total wrong times is 808
+The error rate is 0.7739463601532567
+The total wrong times is 809
+The error rate is 0.7734225621414914
+The total wrong times is 810
+The error rate is 0.7736389684813754
+The total wrong times is 811
+The error rate is 0.773854961832061
+The total wrong times is 812
+The error rate is 0.7733333333333333
+The total wrong times is 813
+The error rate is 0.7735490009514748
+The total wrong times is 814
+The error rate is 0.7737642585551331
+The total wrong times is 815
+The error rate is 0.7739791073124407
+The total wrong times is 816
+The error rate is 0.7741935483870968
+The total wrong times is 817
+The error rate is 0.7744075829383886
+The total wrong times is 818
+The error rate is 0.7746212121212122
+The total wrong times is 819
+The error rate is 0.7726415094339623
+The total wrong times is 820
+The error rate is 0.7721280602636534
+The total wrong times is 821
+The error rate is 0.7723424270931326
+The total wrong times is 822
+The error rate is 0.7725563909774437
+The total wrong times is 823
+The error rate is 0.7720450281425891
+The total wrong times is 824
+The error rate is 0.7722586691658857
+The total wrong times is 825
+The error rate is 0.7724719101123596
+The total wrong times is 826
+The error rate is 0.7726847521047708
+The total wrong times is 827
+The error rate is 0.7728971962616823
+The total wrong times is 828
+The error rate is 0.773109243697479
+The total wrong times is 829
+The error rate is 0.773320895522388
+The total wrong times is 830
+The error rate is 0.7728119180633147
+The total wrong times is 831
+The error rate is 0.7730232558139535
+The total wrong times is 832
+The error rate is 0.7732342007434945
+The total wrong times is 833
+The error rate is 0.7734447539461468
+The total wrong times is 834
+The error rate is 0.7736549165120594
+The total wrong times is 835
+The error rate is 0.7738646895273401
+The total wrong times is 836
+The error rate is 0.774074074074074
+The total wrong times is 837
+The error rate is 0.7735674676524954
+The total wrong times is 838
+The error rate is 0.7737765466297323
+The total wrong times is 839
+The error rate is 0.7739852398523985
+The total wrong times is 840
+The error rate is 0.7741935483870968
+The total wrong times is 841
+The error rate is 0.7744014732965009
+The total wrong times is 842
+The error rate is 0.7746090156393745
+The total wrong times is 843
+The error rate is 0.7748161764705882
+The total wrong times is 844
+The error rate is 0.7728937728937729
+The total wrong times is 845
+The error rate is 0.7723948811700183
+The total wrong times is 846
+The error rate is 0.7726027397260274
+The total wrong times is 847
+The error rate is 0.7728102189781022
+The total wrong times is 848
+The error rate is 0.7723132969034608
+The total wrong times is 849
+The error rate is 0.7725204731574158
+The total wrong times is 850
+The error rate is 0.7727272727272727
+The total wrong times is 851
+The error rate is 0.7729336966394187
+The total wrong times is 852
+The error rate is 0.7731397459165155
+The total wrong times is 853
+The error rate is 0.7733454215775158
+The total wrong times is 854
+The error rate is 0.7735507246376812
+The total wrong times is 855
+The error rate is 0.7730560578661845
+The total wrong times is 856
+The error rate is 0.7732610659439928
+The total wrong times is 857
+The error rate is 0.7734657039711191
+The total wrong times is 858
+The error rate is 0.7736699729486023
+The total wrong times is 859
+The error rate is 0.7738738738738739
+The total wrong times is 860
+The error rate is 0.774077407740774
+The total wrong times is 861
+The error rate is 0.7742805755395683
+The total wrong times is 862
+The error rate is 0.7744833782569631
+The total wrong times is 863
+The error rate is 0.774685816876122
+The total wrong times is 864
+The error rate is 0.7748878923766817
+The total wrong times is 865
+The error rate is 0.775089605734767
+The total wrong times is 866
+The error rate is 0.7752909579230081
+The total wrong times is 867
+The error rate is 0.7754919499105546
+The total wrong times is 868
+The error rate is 0.775692582663092
+The total wrong times is 869
+The error rate is 0.7758928571428572
+The total wrong times is 870
+The error rate is 0.7754010695187166
+The total wrong times is 871
+The error rate is 0.7756010685663401
+The total wrong times is 872
+The error rate is 0.7758007117437722
+The total wrong times is 873
+The error rate is 0.776
+The total wrong times is 874
+The error rate is 0.7761989342806395
+The total wrong times is 875
+The error rate is 0.7763975155279503
+The total wrong times is 876
+The error rate is 0.776595744680851
+The total wrong times is 877
+The error rate is 0.7767936226749336
+The total wrong times is 878
+The error rate is 0.7769911504424779
+The total wrong times is 879
+The error rate is 0.7771883289124668
+The total wrong times is 880
+The error rate is 0.7773851590106007
+The total wrong times is 881
+The error rate is 0.7775816416593115
+The total wrong times is 882
+The error rate is 0.7777777777777778
+The total wrong times is 883
+The error rate is 0.7779735682819383
+The total wrong times is 884
+The error rate is 0.778169014084507
+The total wrong times is 885
+The error rate is 0.7776801405975395
+The total wrong times is 886
+The error rate is 0.7778753292361721
+The total wrong times is 887
+The error rate is 0.7780701754385965
+The total wrong times is 888
+The error rate is 0.7782646801051709
+The total wrong times is 889
+The error rate is 0.7784588441330998
+The total wrong times is 890
+The error rate is 0.778652668416448
+The total wrong times is 891
+The error rate is 0.7788461538461539
+The total wrong times is 892
+The error rate is 0.7790393013100436
+The total wrong times is 893
+The error rate is 0.7792321116928447
+The total wrong times is 894
+The error rate is 0.7794245858761988
+The total wrong times is 895
+The error rate is 0.7796167247386759
+The total wrong times is 896
+The error rate is 0.7798085291557877
+The total wrong times is 897
+The error rate is 0.78
+The total wrong times is 898
+The error rate is 0.7801911381407471
+The total wrong times is 899
+The error rate is 0.7803819444444444
+The total wrong times is 900
+The error rate is 0.7785467128027682
+The total wrong times is 901
+The error rate is 0.7780656303972366
+The total wrong times is 902
+The error rate is 0.7782571182053495
+The total wrong times is 903
+The error rate is 0.778448275862069
+The total wrong times is 904
+The error rate is 0.7779690189328744
+The total wrong times is 905
+The error rate is 0.7781599312123818
+The total wrong times is 906
+The error rate is 0.7783505154639175
+The total wrong times is 907
+The error rate is 0.7785407725321889
+The total wrong times is 908
+The error rate is 0.7787307032590052
+The total wrong times is 909
+The error rate is 0.7789203084832905
+The total wrong times is 910
+The error rate is 0.7791095890410958
+The total wrong times is 911
+The error rate is 0.7786324786324786
+The total wrong times is 912
+The error rate is 0.7788215200683177
+The total wrong times is 913
+The error rate is 0.7790102389078498
+The total wrong times is 914
+The error rate is 0.7791986359761296
+The total wrong times is 915
+The error rate is 0.7793867120954003
+The total wrong times is 916
+The error rate is 0.7795744680851063
+The total wrong times is 917
+The error rate is 0.7797619047619048
+The total wrong times is 918
+The error rate is 0.7799490229396772
+The total wrong times is 919
+The error rate is 0.7801358234295416
+The total wrong times is 920
+The error rate is 0.7803223070398643
+The total wrong times is 921
+The error rate is 0.7805084745762711
+The total wrong times is 922
+The error rate is 0.7806943268416596
+The total wrong times is 923
+The error rate is 0.7808798646362098
+The total wrong times is 924
+The error rate is 0.7810650887573964
+The total wrong times is 925
+The error rate is 0.78125
+The total wrong times is 926
+The error rate is 0.7801179443976411
+The total wrong times is 927
+The error rate is 0.7803030303030303
+The total wrong times is 928
+The error rate is 0.7804878048780488
+The total wrong times is 929
+The error rate is 0.780672268907563
+The total wrong times is 930
+The error rate is 0.7808564231738035
+The total wrong times is 931
+The error rate is 0.7810402684563759
+The total wrong times is 932
+The error rate is 0.7812238055322716
+The total wrong times is 933
+The error rate is 0.7814070351758794
+The total wrong times is 934
+The error rate is 0.7815899581589958
+The total wrong times is 935
+The error rate is 0.7817725752508361
+The total wrong times is 936
+The error rate is 0.7819548872180451
+The total wrong times is 937
+The error rate is 0.7821368948247078
+The total wrong times is 938
+The error rate is 0.7823185988323603
+The total wrong times is 939
+The error rate is 0.7825
+The total wrong times is 940
+The error rate is 0.7820299500831946
+The total wrong times is 941
+The error rate is 0.7822111388196176
+The total wrong times is 942
+The error rate is 0.782392026578073
+The total wrong times is 943
+The error rate is 0.7825726141078838
+The total wrong times is 944
+The error rate is 0.7827529021558872
+The total wrong times is 945
+The error rate is 0.7829328914664457
+The total wrong times is 946
+The error rate is 0.7831125827814569
+The total wrong times is 947
+The error rate is 0.7832919768403639
+The total wrong times is 948
+The error rate is 0.7834710743801653
+The total wrong times is 949
+The error rate is 0.7836498761354252
+The total wrong times is 950
+The error rate is 0.7838283828382838
+The total wrong times is 951
+The error rate is 0.7840065952184666
+The total wrong times is 952
+The error rate is 0.7841845140032949
+The total wrong times is 953
+The error rate is 0.7843621399176954
+The total wrong times is 954
+The error rate is 0.7845394736842105
+The total wrong times is 955
+The error rate is 0.784072249589491
+The total wrong times is 956
+The error rate is 0.7842493847415914
+The total wrong times is 957
+The error rate is 0.7844262295081967
+The total wrong times is 958
+The error rate is 0.7846027846027847
+The total wrong times is 959
+The error rate is 0.7847790507364976
+The total wrong times is 960
+The error rate is 0.7849550286181521
+The total wrong times is 961
+The error rate is 0.7851307189542484
+The total wrong times is 962
+The error rate is 0.7853061224489796
+The total wrong times is 963
+The error rate is 0.7854812398042414
+The total wrong times is 964
+The error rate is 0.7856560717196414
+The total wrong times is 965
+The error rate is 0.7858306188925082
+The total wrong times is 966
+The error rate is 0.7860048820179008
+The total wrong times is 967
+The error rate is 0.7861788617886178
+The total wrong times is 968
+The error rate is 0.7863525588952072
+The total wrong times is 969
+The error rate is 0.786525974025974
+The total wrong times is 970
+The error rate is 0.786699107866991
+The total wrong times is 971
+The error rate is 0.786871961102107
+The total wrong times is 972
+The error rate is 0.7870445344129555
+The total wrong times is 973
+The error rate is 0.7872168284789643
+The total wrong times is 974
+The error rate is 0.7873888439773646
+The total wrong times is 975
+The error rate is 0.7875605815831987
+The total wrong times is 976
+The error rate is 0.7877320419693301
+The total wrong times is 977
+The error rate is 0.7879032258064517
+The total wrong times is 978
+The error rate is 0.7880741337630943
+The total wrong times is 979
+The error rate is 0.788244766505636
+The total wrong times is 980
+The error rate is 0.7884151246983105
+The total wrong times is 981
+The error rate is 0.7885852090032154
+The total wrong times is 982
+The error rate is 0.7887550200803213
+The total wrong times is 983
+The error rate is 0.7889245585874799
+The total wrong times is 984
+The error rate is 0.789093825180433
+The total wrong times is 985
+The error rate is 0.7892628205128205
+The total wrong times is 986
+The error rate is 0.7888
+The total wrong times is 987
+The error rate is 0.7889688249400479
+The total wrong times is 988
+The error rate is 0.7891373801916933
+The total wrong times is 989
+The error rate is 0.7893056664006385
+The total wrong times is 990
+The error rate is 0.7894736842105263
+The total wrong times is 991
+The error rate is 0.7896414342629482
+The total wrong times is 992
+The error rate is 0.7898089171974523
+The total wrong times is 993
+The error rate is 0.7899761336515513
+The total wrong times is 994
+The error rate is 0.7901430842607313
+The total wrong times is 995
+The error rate is 0.7903097696584591
+The total wrong times is 996
+The error rate is 0.7904761904761904
+The total wrong times is 997
+The error rate is 0.7906423473433782
+The total wrong times is 998
+The error rate is 0.7908082408874801
+The total wrong times is 999
+The error rate is 0.7909738717339667
+The total wrong times is 1000
+The error rate is 0.7911392405063291
+The total wrong times is 1001
+The error rate is 0.7913043478260869
+The total wrong times is 1002
+The error rate is 0.7914691943127962
+The total wrong times is 1003
+The error rate is 0.7916337805840569
+The total wrong times is 1004
+The error rate is 0.7917981072555205
+The total wrong times is 1005
+The error rate is 0.7919621749408984
+The total wrong times is 1006
+The error rate is 0.7921259842519685
+The total wrong times is 1007
+The error rate is 0.7922895357985837
+The total wrong times is 1008
+The error rate is 0.7924528301886793
+The total wrong times is 1009
+The error rate is 0.7926158680282797
+The total wrong times is 1010
+The error rate is 0.792778649921507
+The total wrong times is 1011
+The error rate is 0.7929411764705883
+The total wrong times is 1012
+The error rate is 0.7931034482758621
+The total wrong times is 1013
+The error rate is 0.793265465935787
+The total wrong times is 1014
+The error rate is 0.7934272300469484
+The total wrong times is 1015
+The error rate is 0.7935887412040656
+The total wrong times is 1016
+The error rate is 0.79375
+The total wrong times is 1017
+The error rate is 0.7895962732919255
+The total wrong times is 1018
+The error rate is 0.7879256965944272
+The total wrong times is 1019
+The error rate is 0.7874806800618238
+The total wrong times is 1020
+The error rate is 0.7876447876447876
+The total wrong times is 1021
+The error rate is 0.7878086419753086
+The total wrong times is 1022
+The error rate is 0.7861538461538462
+The total wrong times is 1023
+The error rate is 0.7857142857142857
+The total wrong times is 1024
+The error rate is 0.7858787413660783
+The total wrong times is 1025
+The error rate is 0.786042944785276
+The total wrong times is 1026
+The error rate is 0.7856049004594181
+The total wrong times is 1027
+The error rate is 0.7857689364957919
+The total wrong times is 1028
+The error rate is 0.7859327217125383
+The total wrong times is 1029
+The error rate is 0.786096256684492
+The total wrong times is 1030
+The error rate is 0.7862595419847328
+The total wrong times is 1031
+The error rate is 0.7864225781845919
+The total wrong times is 1032
+The error rate is 0.7865853658536586
+The total wrong times is 1033
+The error rate is 0.7849544072948328
+The total wrong times is 1034
+The error rate is 0.7845220030349014
+The total wrong times is 1035
+The error rate is 0.7846853677028052
+The total wrong times is 1036
+The error rate is 0.7848484848484848
+The total wrong times is 1037
+The error rate is 0.7844175491679274
+The total wrong times is 1038
+The error rate is 0.7845804988662132
+The total wrong times is 1039
+The error rate is 0.7847432024169184
+The total wrong times is 1040
+The error rate is 0.7849056603773585
+The total wrong times is 1041
+The error rate is 0.7850678733031674
+The total wrong times is 1042
+The error rate is 0.7852298417483045
+The total wrong times is 1043
+The error rate is 0.7853915662650602
+The total wrong times is 1044
+The error rate is 0.7837837837837838
+The total wrong times is 1045
+The error rate is 0.7833583208395802
+The total wrong times is 1046
+The error rate is 0.7835205992509363
+The total wrong times is 1047
+The error rate is 0.7836826347305389
+The total wrong times is 1048
+The error rate is 0.7832585949177877
+The total wrong times is 1049
+The error rate is 0.7834204630321135
+The total wrong times is 1050
+The error rate is 0.7835820895522388
+The total wrong times is 1051
+The error rate is 0.7837434750186428
+The total wrong times is 1052
+The error rate is 0.7839046199701938
+The total wrong times is 1053
+The error rate is 0.7840655249441548
+The total wrong times is 1054
+The error rate is 0.7842261904761905
+The total wrong times is 1055
+The error rate is 0.7826409495548962
+The total wrong times is 1056
+The error rate is 0.7822222222222223
+The total wrong times is 1057
+The error rate is 0.7823834196891192
+The total wrong times is 1058
+The error rate is 0.7825443786982249
+The total wrong times is 1059
+The error rate is 0.7821270310192023
+The total wrong times is 1060
+The error rate is 0.7822878228782287
+The total wrong times is 1061
+The error rate is 0.782448377581121
+The total wrong times is 1062
+The error rate is 0.782608695652174
+The total wrong times is 1063
+The error rate is 0.7827687776141384
+The total wrong times is 1064
+The error rate is 0.7829286239882266
+The total wrong times is 1065
+The error rate is 0.7830882352941176
+The total wrong times is 1066
+The error rate is 0.7826725403817915
+The total wrong times is 1067
+The error rate is 0.7828319882611886
+The total wrong times is 1068
+The error rate is 0.782991202346041
+The total wrong times is 1069
+The error rate is 0.7831501831501831
+The total wrong times is 1070
+The error rate is 0.7833089311859444
+The total wrong times is 1071
+The error rate is 0.783467446964155
+The total wrong times is 1072
+The error rate is 0.783625730994152
+The total wrong times is 1073
+The error rate is 0.7837837837837838
+The total wrong times is 1074
+The error rate is 0.7839416058394161
+The total wrong times is 1075
+The error rate is 0.7840991976659373
+The total wrong times is 1076
+The error rate is 0.7842565597667639
+The total wrong times is 1077
+The error rate is 0.7844136926438456
+The total wrong times is 1078
+The error rate is 0.784570596797671
+The total wrong times is 1079
+The error rate is 0.7847272727272727
+The total wrong times is 1080
+The error rate is 0.7848837209302325
+The total wrong times is 1081
+The error rate is 0.7833333333333333
+The total wrong times is 1082
+The error rate is 0.7829232995658466
+The total wrong times is 1083
+The error rate is 0.7830802603036876
+The total wrong times is 1084
+The error rate is 0.7832369942196532
+The total wrong times is 1085
+The error rate is 0.7828282828282829
+The total wrong times is 1086
+The error rate is 0.7829848594087959
+The total wrong times is 1087
+The error rate is 0.7831412103746398
+The total wrong times is 1088
+The error rate is 0.7832973362131029
+The total wrong times is 1089
+The error rate is 0.7834532374100719
+The total wrong times is 1090
+The error rate is 0.783608914450036
+The total wrong times is 1091
+The error rate is 0.7837643678160919
+The total wrong times is 1092
+The error rate is 0.7833572453371592
+The total wrong times is 1093
+The error rate is 0.7835125448028674
+The total wrong times is 1094
+The error rate is 0.7836676217765043
+The total wrong times is 1095
+The error rate is 0.7838224767358626
+The total wrong times is 1096
+The error rate is 0.7839771101573677
+The total wrong times is 1097
+The error rate is 0.7841315225160829
+The total wrong times is 1098
+The error rate is 0.7842857142857143
+The total wrong times is 1099
+The error rate is 0.7844396859386152
+The total wrong times is 1100
+The error rate is 0.7845934379457917
+The total wrong times is 1101
+The error rate is 0.7847469707769066
+The total wrong times is 1102
+The error rate is 0.7849002849002849
+The total wrong times is 1103
+The error rate is 0.7850533807829182
+The total wrong times is 1104
+The error rate is 0.7852062588904695
+The total wrong times is 1105
+The error rate is 0.7853589196872779
+The total wrong times is 1106
+The error rate is 0.7855113636363636
+The total wrong times is 1107
+The error rate is 0.7817796610169492
+The total wrong times is 1108
+The error rate is 0.780281690140845
+The total wrong times is 1109
+The error rate is 0.779887482419128
+The total wrong times is 1110
+The error rate is 0.7800421644413211
+The total wrong times is 1111
+The error rate is 0.7801966292134831
+The total wrong times is 1112
+The error rate is 0.7792571829011913
+The total wrong times is 1113
+The error rate is 0.7794117647058824
+The total wrong times is 1114
+The error rate is 0.7795661301609517
+The total wrong times is 1115
+The error rate is 0.7797202797202797
+The total wrong times is 1116
+The error rate is 0.779874213836478
+The total wrong times is 1117
+The error rate is 0.7800279329608939
+The total wrong times is 1118
+The error rate is 0.7801814375436148
+The total wrong times is 1119
+The error rate is 0.7803347280334728
+The total wrong times is 1120
+The error rate is 0.7804878048780488
+The total wrong times is 1121
+The error rate is 0.7806406685236769
+The total wrong times is 1122
+The error rate is 0.7807933194154488
+The total wrong times is 1123
+The error rate is 0.7809457579972183
+The total wrong times is 1124
+The error rate is 0.7810979847116053
+The total wrong times is 1125
+The error rate is 0.78125
+The total wrong times is 1126
+The error rate is 0.7803187803187803
+The total wrong times is 1127
+The error rate is 0.7804709141274239
+The total wrong times is 1128
+The error rate is 0.7806228373702422
+The total wrong times is 1129
+The error rate is 0.780774550484094
+The total wrong times is 1130
+The error rate is 0.7809260539046303
+The total wrong times is 1131
+The error rate is 0.7810773480662984
+The total wrong times is 1132
+The error rate is 0.7812284334023465
+The total wrong times is 1133
+The error rate is 0.7813793103448275
+The total wrong times is 1134
+The error rate is 0.7815299793246038
+The total wrong times is 1135
+The error rate is 0.7816804407713499
+The total wrong times is 1136
+The error rate is 0.7818306951135582
+The total wrong times is 1137
+The error rate is 0.7819807427785419
+The total wrong times is 1138
+The error rate is 0.7821305841924399
+The total wrong times is 1139
+The error rate is 0.7822802197802198
+The total wrong times is 1140
+The error rate is 0.7808219178082192
+The total wrong times is 1141
+The error rate is 0.780437756497948
+The total wrong times is 1142
+The error rate is 0.7805878332194122
+The total wrong times is 1143
+The error rate is 0.7807377049180327
+The total wrong times is 1144
+The error rate is 0.7803547066848567
+The total wrong times is 1145
+The error rate is 0.7805044308111793
+The total wrong times is 1146
+The error rate is 0.7806539509536785
+The total wrong times is 1147
+The error rate is 0.7808032675289313
+The total wrong times is 1148
+The error rate is 0.780952380952381
+The total wrong times is 1149
+The error rate is 0.7811012916383413
+The total wrong times is 1150
+The error rate is 0.78125
+The total wrong times is 1151
+The error rate is 0.7798102981029811
+The total wrong times is 1152
+The error rate is 0.7794316644113667
+The total wrong times is 1153
+The error rate is 0.7795807978363759
+The total wrong times is 1154
+The error rate is 0.7797297297297298
+The total wrong times is 1155
+The error rate is 0.7793522267206477
+The total wrong times is 1156
+The error rate is 0.7795010114632501
+The total wrong times is 1157
+The error rate is 0.7796495956873315
+The total wrong times is 1158
+The error rate is 0.7797979797979798
+The total wrong times is 1159
+The error rate is 0.7799461641991925
+The total wrong times is 1160
+The error rate is 0.7800941492938803
+The total wrong times is 1161
+The error rate is 0.780241935483871
+The total wrong times is 1162
+The error rate is 0.7798657718120805
+The total wrong times is 1163
+The error rate is 0.7800134138162307
+The total wrong times is 1164
+The error rate is 0.7801608579088471
+The total wrong times is 1165
+The error rate is 0.7803081044876088
+The total wrong times is 1166
+The error rate is 0.7804551539491299
+The total wrong times is 1167
+The error rate is 0.7806020066889632
+The total wrong times is 1168
+The error rate is 0.7807486631016043
+The total wrong times is 1169
+The error rate is 0.7808951235804943
+The total wrong times is 1170
+The error rate is 0.7810413885180241
+The total wrong times is 1171
+The error rate is 0.781187458305537
+The total wrong times is 1172
+The error rate is 0.7813333333333333
+The total wrong times is 1173
+The error rate is 0.7814790139906729
+The total wrong times is 1174
+The error rate is 0.7816245006657789
+The total wrong times is 1175
+The error rate is 0.7817697937458417
+The total wrong times is 1176
+The error rate is 0.7819148936170213
+The total wrong times is 1177
+The error rate is 0.781021897810219
+The total wrong times is 1178
+The error rate is 0.7811671087533156
+The total wrong times is 1179
+The error rate is 0.7813121272365805
+The total wrong times is 1180
+The error rate is 0.7814569536423841
+The total wrong times is 1181
+The error rate is 0.7816015883520847
+The total wrong times is 1182
+The error rate is 0.7817460317460317
+The total wrong times is 1183
+The error rate is 0.7818902842035691
+The total wrong times is 1184
+The error rate is 0.7820343461030383
+The total wrong times is 1185
+The error rate is 0.7821782178217822
+The total wrong times is 1186
+The error rate is 0.7823218997361477
+The total wrong times is 1187
+The error rate is 0.7824653922214898
+The total wrong times is 1188
+The error rate is 0.782608695652174
+The total wrong times is 1189
+The error rate is 0.78275181040158
+The total wrong times is 1190
+The error rate is 0.7828947368421053
+The total wrong times is 1191
+The error rate is 0.7825229960578186
+The total wrong times is 1192
+The error rate is 0.7826657912015759
+The total wrong times is 1193
+The error rate is 0.7828083989501312
+The total wrong times is 1194
+The error rate is 0.7829508196721311
+The total wrong times is 1195
+The error rate is 0.7830930537352556
+The total wrong times is 1196
+The error rate is 0.7832351015062213
+The total wrong times is 1197
+The error rate is 0.7833769633507853
+The total wrong times is 1198
+The error rate is 0.7835186396337476
+The total wrong times is 1199
+The error rate is 0.7836601307189542
+The total wrong times is 1200
+The error rate is 0.7838014369693012
+The total wrong times is 1201
+The error rate is 0.7839425587467362
+The total wrong times is 1202
+The error rate is 0.7840834964122635
+The total wrong times is 1203
+The error rate is 0.7842242503259452
+The total wrong times is 1204
+The error rate is 0.7843648208469055
+The total wrong times is 1205
+The error rate is 0.7845052083333334
+The total wrong times is 1206
+The error rate is 0.7810880829015544
+The total wrong times is 1207
+The error rate is 0.7797157622739018
+The total wrong times is 1208
+The error rate is 0.7793548387096774
+The total wrong times is 1209
+The error rate is 0.7794970986460348
+The total wrong times is 1210
+The error rate is 0.779639175257732
+The total wrong times is 1211
+The error rate is 0.7782776349614395
+The total wrong times is 1212
+The error rate is 0.7779204107830552
+The total wrong times is 1213
+The error rate is 0.7780628608082104
+The total wrong times is 1214
+The error rate is 0.7782051282051282
+The total wrong times is 1215
+The error rate is 0.7778489116517285
+The total wrong times is 1216
+The error rate is 0.7779910428662828
+The total wrong times is 1217
+The error rate is 0.7781329923273658
+The total wrong times is 1218
+The error rate is 0.7782747603833866
+The total wrong times is 1219
+The error rate is 0.7784163473818646
+The total wrong times is 1220
+The error rate is 0.778557753669432
+The total wrong times is 1221
+The error rate is 0.7786989795918368
+The total wrong times is 1222
+The error rate is 0.77735368956743
+The total wrong times is 1223
+The error rate is 0.7770012706480305
+The total wrong times is 1224
+The error rate is 0.7771428571428571
+The total wrong times is 1225
+The error rate is 0.7772842639593909
+The total wrong times is 1226
+The error rate is 0.7759493670886076
+The total wrong times is 1227
+The error rate is 0.7756005056890013
+The total wrong times is 1228
+The error rate is 0.7757422615287429
+The total wrong times is 1229
+The error rate is 0.7758838383838383
+The total wrong times is 1230
+The error rate is 0.77455919395466
+The total wrong times is 1231
+The error rate is 0.7742138364779875
+The total wrong times is 1232
+The error rate is 0.7743557510999372
+The total wrong times is 1233
+The error rate is 0.7744974874371859
+The total wrong times is 1234
+The error rate is 0.7741530740276035
+The total wrong times is 1235
+The error rate is 0.774294670846395
+The total wrong times is 1236
+The error rate is 0.7744360902255639
+The total wrong times is 1237
+The error rate is 0.7745773324984345
+The total wrong times is 1238
+The error rate is 0.7747183979974969
+The total wrong times is 1239
+The error rate is 0.774859287054409
+The total wrong times is 1240
+The error rate is 0.775
+The total wrong times is 1241
+The error rate is 0.7736907730673317
+The total wrong times is 1242
+The error rate is 0.7733499377334994
+The total wrong times is 1243
+The error rate is 0.7734909769757312
+The total wrong times is 1244
+The error rate is 0.7736318407960199
+The total wrong times is 1245
+The error rate is 0.7732919254658385
+The total wrong times is 1246
+The error rate is 0.7734326505276226
+The total wrong times is 1247
+The error rate is 0.7735732009925558
+The total wrong times is 1248
+The error rate is 0.7737135771853689
+The total wrong times is 1249
+The error rate is 0.7738537794299876
+The total wrong times is 1250
+The error rate is 0.7739938080495357
+The total wrong times is 1251
+The error rate is 0.7741336633663366
+The total wrong times is 1252
+The error rate is 0.7728395061728395
+The total wrong times is 1253
+The error rate is 0.7725030826140568
+The total wrong times is 1254
+The error rate is 0.7726432532347505
+The total wrong times is 1255
+The error rate is 0.7727832512315271
+The total wrong times is 1256
+The error rate is 0.7724477244772447
+The total wrong times is 1257
+The error rate is 0.7725875845113707
+The total wrong times is 1258
+The error rate is 0.7727272727272727
+The total wrong times is 1259
+The error rate is 0.7728667894413751
+The total wrong times is 1260
+The error rate is 0.7730061349693251
+The total wrong times is 1261
+The error rate is 0.7731453096259964
+The total wrong times is 1262
+The error rate is 0.7732843137254902
+The total wrong times is 1263
+The error rate is 0.7720048899755502
+The total wrong times is 1264
+The error rate is 0.7716727716727717
+The total wrong times is 1265
+The error rate is 0.7718120805369127
+The total wrong times is 1266
+The error rate is 0.7719512195121951
+The total wrong times is 1267
+The error rate is 0.771619975639464
+The total wrong times is 1268
+The error rate is 0.7717589774802192
+The total wrong times is 1269
+The error rate is 0.7718978102189781
+The total wrong times is 1270
+The error rate is 0.7720364741641338
+The total wrong times is 1271
+The error rate is 0.7721749696233293
+The total wrong times is 1272
+The error rate is 0.7723132969034608
+The total wrong times is 1273
+The error rate is 0.7724514563106796
+The total wrong times is 1274
+The error rate is 0.7711864406779662
+The total wrong times is 1275
+The error rate is 0.7708585247883918
+The total wrong times is 1276
+The error rate is 0.7709969788519637
+The total wrong times is 1277
+The error rate is 0.7711352657004831
+The total wrong times is 1278
+The error rate is 0.7708082026537998
+The total wrong times is 1279
+The error rate is 0.7709463532248343
+The total wrong times is 1280
+The error rate is 0.7710843373493976
+The total wrong times is 1281
+The error rate is 0.7712221553281156
+The total wrong times is 1282
+The error rate is 0.7713598074608905
+The total wrong times is 1283
+The error rate is 0.7714972940469031
+The total wrong times is 1284
+The error rate is 0.7716346153846154
+The total wrong times is 1285
+The error rate is 0.7703836930455635
+The total wrong times is 1286
+The error rate is 0.770059880239521
+The total wrong times is 1287
+The error rate is 0.770197486535009
+The total wrong times is 1288
+The error rate is 0.7703349282296651
+The total wrong times is 1289
+The error rate is 0.7700119474313023
+The total wrong times is 1290
+The error rate is 0.7701492537313432
+The total wrong times is 1291
+The error rate is 0.7702863961813843
+The total wrong times is 1292
+The error rate is 0.7704233750745378
+The total wrong times is 1293
+The error rate is 0.7705601907032181
+The total wrong times is 1294
+The error rate is 0.7706968433591423
+The total wrong times is 1295
+The error rate is 0.7708333333333334
+The total wrong times is 1296
+The error rate is 0.7705112960760999
+The total wrong times is 1297
+The error rate is 0.7706476530005941
+The total wrong times is 1298
+The error rate is 0.7707838479809976
+The total wrong times is 1299
+The error rate is 0.7709198813056379
+The total wrong times is 1300
+The error rate is 0.7710557532621589
+The total wrong times is 1301
+The error rate is 0.7711914641375223
+The total wrong times is 1302
+The error rate is 0.7713270142180095
+The total wrong times is 1303
+The error rate is 0.7714624037892244
+The total wrong times is 1304
+The error rate is 0.7715976331360946
+The total wrong times is 1305
+The error rate is 0.7717327025428741
+The total wrong times is 1306
+The error rate is 0.7718676122931442
+The total wrong times is 1307
+The error rate is 0.7720023626698169
+The total wrong times is 1308
+The error rate is 0.7721369539551358
+The total wrong times is 1309
+The error rate is 0.7722713864306785
+The total wrong times is 1310
+The error rate is 0.7724056603773585
+The total wrong times is 1311
+The error rate is 0.7711764705882352
+The total wrong times is 1312
+The error rate is 0.7708578143360753
+The total wrong times is 1313
+The error rate is 0.7709923664122137
+The total wrong times is 1314
+The error rate is 0.7711267605633803
+The total wrong times is 1315
+The error rate is 0.7708089097303634
+The total wrong times is 1316
+The error rate is 0.7709431751611013
+The total wrong times is 1317
+The error rate is 0.7710772833723654
+The total wrong times is 1318
+The error rate is 0.7712112346401404
+The total wrong times is 1319
+The error rate is 0.7713450292397661
+The total wrong times is 1320
+The error rate is 0.7714786674459381
+The total wrong times is 1321
+The error rate is 0.7716121495327103
+The total wrong times is 1322
+The error rate is 0.7712952158693116
+The total wrong times is 1323
+The error rate is 0.7714285714285715
+The total wrong times is 1324
+The error rate is 0.7715617715617715
+The total wrong times is 1325
+The error rate is 0.7716948165404776
+The total wrong times is 1326
+The error rate is 0.7718277066356228
+The total wrong times is 1327
+The error rate is 0.7719604421175101
+The total wrong times is 1328
+The error rate is 0.772093023255814
+The total wrong times is 1329
+The error rate is 0.7722254503195817
+The total wrong times is 1330
+The error rate is 0.7723577235772358
+The total wrong times is 1331
+The error rate is 0.7724898432965758
+The total wrong times is 1332
+The error rate is 0.7726218097447796
+The total wrong times is 1333
+The error rate is 0.7727536231884058
+The total wrong times is 1334
+The error rate is 0.7728852838933952
+The total wrong times is 1335
+The error rate is 0.7730167921250723
+The total wrong times is 1336
+The error rate is 0.7731481481481481test!!!!!!
+test!!!!!!
