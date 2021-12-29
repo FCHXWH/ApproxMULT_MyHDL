@@ -6,6 +6,41 @@ from KoggeStoneAdder import *
 from BrentKungAdder import *
 import sys
 @block
+def PPG_trunc(OUTS,A,B,width):
+    startIndex = 0; endIndex = 0;
+    instances_list = [];
+    outs = [];
+    for i in range(2*width-1):
+        if i < width-1:
+            continue;
+        col_len = width - abs(i-width+1);
+        endIndex += col_len;
+        col_sigs_list = [Signal(intbv(0)[1:]) for j in range(col_len)];
+        #col_sigs = ConcatSignal(*reversed(col_sigs_list));
+        for j in range(col_len):
+            #out_tmp = Signal(intbv(0)[1:]);
+            if i <= width-1:
+                AND_1 = AND(col_sigs_list[j],A(i-j),B(j)); # instances' output can't be parts of a bit vector
+                #print("%s %s %s" % (startIndex + j,i-j,j));
+                #print("%s*%s " % (i-j,j))
+            else:
+                AND_1 = AND(col_sigs_list[j],A(width-1-j),B(i+j+1-width));
+                #print("%s*%s " % (width-1-j,i+j+1-width));
+                #print("%s %s %s" % (startIndex + j,width-1-j,i+j+1-width));
+            instances_list.append(AND_1);
+        #print("------------")
+        outs += list(reversed(col_sigs_list));
+        #outs += col_sigs_list;
+        startIndex = endIndex;
+    outs_vec = ConcatSignal(*reversed(outs));  # can't be put into alway_comb section
+                                               # in converted verilog files, the concat signals are the same ones in sig list
+    @always_comb
+    def comb():
+        OUTS.next = outs_vec;
+    return instances_list,comb;
+
+
+@block
 def PPG(OUTS,A,B,width):
     startIndex = 0; endIndex = 0;
     instances_list = [];
@@ -125,18 +160,23 @@ def CompressorTree(OUTS,INPUTS,width,stages):
                 nH_lout = stages[i+1][j+1].nH_out;
                 nFC_lout = stages[i+1][j+1].nFC_out;
                 nHC_lout = stages[i+1][j+1].nHC_out;
-
-            # connect remaining bits
-            startIndex = 0; endIndex = startIndex + nRbs_out - 1;
-            for k in range(len(iRbs_list)):
-                cols_sig_list_nextStage[j][startIndex+k] = cols_sig_list_currentStage[j][iRbs_list[k]];
-            # connect AC42 output bits
-            startIndex = endIndex + 1; endIndex = startIndex + nAC42_out - 1;
-            for k in range(len(iAC42_list)):
-                AC42_ins = AC42(cols_sig_list_nextStage[j][startIndex+k*2],cols_sig_list_nextStage[j][startIndex+k*2+1],\
-                    cols_sig_list_currentStage[j][iAC42_list[k][0]],cols_sig_list_currentStage[j][iAC42_list[k][1]],\
-                    cols_sig_list_currentStage[j][iAC42_list[k][2]],cols_sig_list_currentStage[j][iAC42_list[k][3]]);
-                instances_list.append(AC42_ins);
+            # connect HA output bits
+            startIndex = nHC_out+nFC_out; endIndex = startIndex + nH_out - 1;
+            startIndex_l = 0; endIndex_l = startIndex_l + nHC_lout - 1;
+            for k in range(len(iH_list)):
+                H_ins = HA(cols_sig_list_nextStage[j+1][startIndex_l+k],cols_sig_list_nextStage[j][startIndex+k],\
+                    cols_sig_list_currentStage[j][iH_list[k][0]],cols_sig_list_currentStage[j][iH_list[k][1]]);
+                print("HA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
+                instances_list.append(H_ins);
+            # connect FA output bits
+            startIndex = endIndex + 1; endIndex = startIndex + nF_out - 1;
+            startIndex_l = endIndex_l+1; endIndex_l = startIndex_l + nFC_lout - 1;
+            for k in range(len(iF_list)):
+                F_ins = FA(cols_sig_list_nextStage[j+1][startIndex_l+k],cols_sig_list_nextStage[j][startIndex+k],\
+                    cols_sig_list_currentStage[j][iF_list[k][0]],cols_sig_list_currentStage[j][iF_list[k][1]],\
+                    cols_sig_list_currentStage[j][iF_list[k][2]]);
+                print("FA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
+                instances_list.append(F_ins);
             # connect AC32 output bits
             startIndex = endIndex + 1; endIndex = startIndex + nAC32_out - 1;
             for k in range(len(iAC32_list)):
@@ -144,23 +184,17 @@ def CompressorTree(OUTS,INPUTS,width,stages):
                     cols_sig_list_currentStage[j][iAC32_list[k][0]],cols_sig_list_currentStage[j][iAC32_list[k][1]],\
                     cols_sig_list_currentStage[j][iAC32_list[k][2]]);
                 instances_list.append(AC32_ins);
-            # connect FA output bits
-            startIndex = endIndex + 1; endIndex = startIndex + nF_out - 1;
-            startIndex_l = nRbs_lout + nAC42_lout + nAC32_lout + nF_lout + nH_lout; endIndex_l = startIndex_l + nFC_lout - 1;
-            for k in range(len(iF_list)):
-                F_ins = FA(cols_sig_list_nextStage[j+1][startIndex_l+k],cols_sig_list_nextStage[j][startIndex+k],\
-                    cols_sig_list_currentStage[j][iF_list[k][0]],cols_sig_list_currentStage[j][iF_list[k][1]],\
-                    cols_sig_list_currentStage[j][iF_list[k][2]]);
-                #print("FA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
-                instances_list.append(F_ins);
-            # connect HA output bits
-            startIndex = endIndex + 1; endIndex = startIndex + nH_out - 1;
-            startIndex_l = endIndex_l + 1; endIndex_l = startIndex_l + nHC_lout - 1;
-            for k in range(len(iH_list)):
-                H_ins = HA(cols_sig_list_nextStage[j+1][startIndex_l+k],cols_sig_list_nextStage[j][startIndex+k],\
-                    cols_sig_list_currentStage[j][iH_list[k][0]],cols_sig_list_currentStage[j][iH_list[k][1]]);
-                #print("HA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
-                instances_list.append(H_ins);
+            # connect AC42 output bits
+            startIndex = endIndex + 1; endIndex = startIndex + nAC42_out - 1;
+            for k in range(len(iAC42_list)):
+                AC42_ins = AC42(cols_sig_list_nextStage[j][startIndex+k*2],cols_sig_list_nextStage[j][startIndex+k*2+1],\
+                    cols_sig_list_currentStage[j][iAC42_list[k][0]],cols_sig_list_currentStage[j][iAC42_list[k][1]],\
+                    cols_sig_list_currentStage[j][iAC42_list[k][2]],cols_sig_list_currentStage[j][iAC42_list[k][3]]);
+                instances_list.append(AC42_ins);
+            # connect remaining bits
+            startIndex = endIndex+1; endIndex = startIndex + nRbs_out - 1;
+            for k in range(len(iRbs_list)):
+                cols_sig_list_nextStage[j][startIndex+k] = cols_sig_list_currentStage[j][iRbs_list[k]];
         cols_sig_list_currentStage = cols_sig_list_nextStage;
     outs_list = [];
     for i in range(len(cols_sig_list_currentStage)):
@@ -526,32 +560,41 @@ def convert_CMP_Multiplier(hdl,width,truncWidth,height_evolution):
     CMP_Multiplier_1.convert(hdl);
 
 @block
-def TCAS_CMP_Multiplier(OUTS,A,B,width,evol_stages):
+def TCAS_CMP_Multiplier(OUTS,A,B,width,evol_stages,approx_step_num,is_trunc):
     nOutBits_ppg = width*width;
+    if is_trunc:
+        nOutBits_ppg -= (width*(width-1)/2);
     OutBits_ppg = Signal(intbv(0)[nOutBits_ppg:]);
-    PPG_1 = PPG(OutBits_ppg,A,B,width);
-    tcas_ins = TCAS18(OUTS,OutBits_ppg,width,evol_stages);
+    PPG_1 = None;
+    if is_trunc:
+        PPG_1 = PPG_trunc(OutBits_ppg,A,B,width);
+    else:
+        PPG_1 = PPG(OutBits_ppg,A,B,width);
+    tcas_ins = TCAS18(OUTS,OutBits_ppg,width,evol_stages,approx_step_num,is_trunc);
     return instances();
 
 @block
-def TCAS_CMP_Multiplier_KoggeStone(OUTS,A,B,width,evol_stages):
-    last_bm_size = tcas_finalstage_size(width,evol_stages);
+def TCAS_CMP_Multiplier_KoggeStone(OUTS,A,B,width,evol_stages,approx_step_num,is_trunc):
+    last_bm_size = tcas_finalstage_size(width,evol_stages,approx_step_num,is_trunc);
     nOutBits = 0; columns = [];
     for i in range(len(last_bm_size)):
         if last_bm_size[i] != 0:
             nOutBits += last_bm_size[i];
             columns.append(last_bm_size[i]);
+        else:
+            nOutBits += 1; #const 0
+            columns.append(1);
     CT_OUTS = Signal(intbv(0)[nOutBits:]);
-    TCAS_CMP_Multiplier_ins = TCAS_CMP_Multiplier(CT_OUTS,A,B,width,evol_stages);
+    TCAS_CMP_Multiplier_ins = TCAS_CMP_Multiplier(CT_OUTS,A,B,width,evol_stages,approx_step_num,is_trunc);
     KoggeStone_ins_ins = KoggeStone(OUTS,CT_OUTS,columns);
     return instances();
 
-def convert_TCAS_CMP_Multiplier(hdl,width,evol_stages):
+def convert_TCAS_CMP_Multiplier(hdl,width,evol_stages,is_trunc):
     #width = 12;
     A= Signal(intbv(0)[width:]);
     B = Signal(intbv(0)[width:]);
     #stages = ParseJson("CompressorTree.json");
-    last_bm_size = tcas_finalstage_size(width,evol_stages);
+    last_bm_size = tcas_finalstage_size(width,evol_stages,is_trunc);
     nOutBits = 0;
     for i in range(len(last_bm_size)):
         nOutBits += last_bm_size[i];
@@ -559,19 +602,22 @@ def convert_TCAS_CMP_Multiplier(hdl,width,evol_stages):
     tcas_ins = TCAS_CMP_Multiplier(OUTS,A,B,width,evol_stages);
     tcas_ins.convert(hdl);
 
-def convert_TCAS_CMP_Multiplier_KoggeStone(hdl,width,evol_stages):
+def convert_TCAS_CMP_Multiplier_KoggeStone(hdl,width,evol_stages,approx_step_num,is_trunc):
     A= Signal(intbv(0)[width:]);
     B = Signal(intbv(0)[width:]);
     #stages = ParseJson("CompressorTree.json");
     nOutBits = 0;
-    last_bm_size = tcas_finalstage_size(width,evol_stages);
+    last_bm_size = tcas_finalstage_size(width,evol_stages,approx_step_num,is_trunc);
     for i in range(len(last_bm_size)):
         if last_bm_size[i] != 0:
             nOutBits += 1;
+    if is_trunc:
+        nOutBits += width;
     nOutBits += 1;
     OUTS = Signal(intbv(0)[nOutBits:]);
-    TCAS_CMP_Multiplier_KoggeStone_ins = TCAS_CMP_Multiplier_KoggeStone(OUTS,A,B,width,evol_stages);
-    TCAS_CMP_Multiplier_KoggeStone_ins.convert(hdl);
+    TCAS_CMP_Multiplier_KoggeStone_ins = TCAS_CMP_Multiplier_KoggeStone(OUTS,A,B,width,evol_stages,approx_step_num,is_trunc);
+    file = 'Step'+str(approx_step_num)+('Trunc' if is_trunc else 'Full')+'_'+str(width);
+    TCAS_CMP_Multiplier_KoggeStone_ins.convert(hdl,path='NewDesigns',name=file);
 
 @block
 def test_TCAS_CMP_Multiplier(width,evol_stages):
@@ -631,17 +677,17 @@ def test_TCAS_CMP_Multiplier(width,evol_stages):
     return instances();
 
 @block
-def test_TCAS_CMP_Multiplier_KoggeStone(width,evol_stages):
+def test_TCAS_CMP_Multiplier_KoggeStone(width,evol_stages,approx_step_num):
     A= Signal(intbv(0)[width:]);
     B = Signal(intbv(0)[width:]);
     nOutBits = 0;
-    last_bm_size = tcas_finalstage_size(width,evol_stages);
+    last_bm_size = tcas_finalstage_size(width,evol_stages,approx_step_num);
     for i in range(len(last_bm_size)):
         if last_bm_size[i] != 0:
             nOutBits += 1;
     nOutBits += 1;
     OUTS = Signal(intbv(0)[nOutBits:]);
-    TCAS_CMP_Multiplier_KoggeStone_ins = TCAS_CMP_Multiplier_KoggeStone(OUTS,A,B,width,evol_stages);
+    TCAS_CMP_Multiplier_KoggeStone_ins = TCAS_CMP_Multiplier_KoggeStone(OUTS,A,B,width,evol_stages,approx_step_num);
     @instance
     def simu():
         print("A B OUT_SIMU OUT_EXACT");
@@ -704,10 +750,10 @@ def test_TCAS_CMP_Multiplier_KoggeStone(width,evol_stages):
 
 if __name__ == '__main__':
     #print("Test kogge stone");
-    #width = 12; columns = [];
+    #width = 15; columns = [];
     #for i in range(width):
     #    columns.append(2);
-    ##convert_KoggeStone("verilog",columns);
+    #convert_KoggeStone("verilog",columns);
     #convert_BrentKung("verilog",columns);
     ##test_KoggeStone_ins = test_KoggeStone(columns);
     ##test_KoggeStone_ins.run_sim();
@@ -718,8 +764,8 @@ if __name__ == '__main__':
         stages = ParseJson(sys.argv[1]);
         width = int(sys.argv[4]);
         #convert_Multiplier("verilog",stages,width); 
-        #convert_Multiplier_KoggeStone("verilog",stages,width);
-        convert_Multiplier_BrentKung("verilog",stages,width);
+        convert_Multiplier_KoggeStone("verilog",stages,width);
+        #convert_Multiplier_BrentKung("verilog",stages,width);
         #test_Multiplier1 = test_Multiplier(stages,width);
         #test_Multiplier_KoggeStone_ins = test_Multiplier_KoggeStone(stages,width);
         #test_Multiplier_BrentKung_ins = test_Multiplier_BrentKung(stages,width);
@@ -727,11 +773,20 @@ if __name__ == '__main__':
         if int(sys.argv[5]) == 0:
             test_Multiplier_KoggeStone_ins.run_sim();
     elif sys.argv[2] == 'TCAS18':
-        #width = 12; evol_stages = [6,3,2];
-        #width = 16; evol_stages = [8,4,3,2];
-        width = 20; evol_stages = [10,5,4,3,2];
-        #width = 8; evol_stages = [4,2];
-        convert_TCAS_CMP_Multiplier_KoggeStone("verilog",width,evol_stages);
+        #is_trunc=1; nSteps=2; width = 8; evol_stages = [4,2]; #2StepTrunc
+        #is_trunc=0; nSteps=1; width = 8; evol_stages = [4,3,2]; #1StepFull
+        #is_trunc=1; nSteps=1; width = 8; evol_stages = [4,3,2]; #1StepTrunc
+        #is_trunc=1; nSteps=2; width = 12; evol_stages = [6,3,2] #2StepTrunc
+        #is_trunc=0; nSteps=1; width = 12; evol_stages = [6,4,3,2] #1StepFull
+        #is_trunc=1; nSteps=1; width = 12; evol_stages = [6,4,3,2] #1StepTrunc
+        #is_trunc=1; nSteps=2; width = 16; evol_stages = [8,4,3,2] #2steptrunc
+        #is_trunc=0; nSteps=1; width = 16; evol_stages = [8,6,4,3,2] #1stepfull
+        #is_trunc=1; nSteps=1; width = 16; evol_stages = [8,6,4,3,2] #1steptrunc
+        #is_trunc=1; nSteps=2; width = 20; evol_stages = [10,5,4,3,2] #2StepTrunc
+        #is_trunc=0; nSteps=1; width = 20; evol_stages = [10,9,6,4,3,2] #1StepFull
+        is_trunc=1; nSteps=1; width = 20; evol_stages = [10,9,6,4,3,2] #1StepTrunc
+        
+        convert_TCAS_CMP_Multiplier_KoggeStone("verilog",width,evol_stages,nSteps,is_trunc);
         test_TCAS_CMP_Multiplier_KoggeStone_ins = test_TCAS_CMP_Multiplier_KoggeStone(width,evol_stages);
         #test_TCAS_CMP_Multiplier_KoggeStone_ins.run_sim();
         #convert_TCAS_CMP_Multiplier("verilog",width,evol_stages);

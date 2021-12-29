@@ -46,7 +46,7 @@ def ParseJson(JsonName):
         for j in range(len(stage)):
             col = stage[j];
             Stage.append(Col(col));
-        Stage.reverse();
+        #Stage.reverse();
         Stages.append(Stage);
     return Stages;
 

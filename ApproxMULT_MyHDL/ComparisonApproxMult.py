@@ -141,15 +141,179 @@ def check_stop_bm(bm_size):
             return flag;
     return flag;
 
+#@block
+#def TCAS18(OUTS,INPUTS,width,height_evolution):
+#    cols_sig_list_currentStage = [];
+#    cols_sig_list_nextStage = [];
+#    instances_list = [];
+#    startIndex = 0; endIndex = 0;
+#    iStage = 0;
+#    for i in range(2*width-1):
+#        col_len = width - abs(i-width+1);
+#        endIndex = startIndex + col_len;
+#        tmp_list = [];
+#        for j in range(startIndex,endIndex):
+#            tmp_list.append(INPUTS(j));
+#        cols_sig_list_currentStage.append(tmp_list);
+#        startIndex = endIndex;
+
+#    while not check_stop(cols_sig_list_currentStage):
+#        if iStage < 2:
+#            # LSP parts
+#            for i in range(width):
+#                if len(cols_sig_list_currentStage[i]) <= 2:
+#                    tmp_list = [Signal(intbv(0)[1:]) for j in range(len(cols_sig_list_currentStage[i]))];
+#                    for j in range(len(cols_sig_list_currentStage[i])):
+#                        tmp_list[j] = cols_sig_list_currentStage[i][j];
+#                    cols_sig_list_nextStage.append(tmp_list);
+#                else:
+#                    col_len = len(cols_sig_list_currentStage[i]);
+#                    col_inputs = cols_sig_list_currentStage[i];
+#                    col_inputs_vec = ConcatSignal(*col_inputs);
+#                    vInputs = Signal(intbv(0)[col_len:]);
+#                    slice_shadower_ins = slice_shadower(vInputs,col_inputs_vec);
+#                    col_outputs = Signal(intbv(0)[int(ceil(float(col_len)/2)):]);
+#                    AC_ins = highorderAC(col_outputs,vInputs,col_len);
+#                    cols_sig_list_nextStage.append([col_outputs(j) for j in range(int(ceil(float(col_len)/2)))]);
+#                    instances_list.append(slice_shadower_ins);
+#                    instances_list.append(AC_ins);
+#            # MSP parts
+#            nlastCarry = 0; lastCarry = [];
+#            ncurrentCarry = 0; currentCarry = [];
+#            for i in range(width,2*width-1):
+#                # compute number of all compressors
+#                nFA = 0; nHA = 0; nj = 0; nC = 0;
+#                h_next = 0;
+#                h_nextmax = height_evolution[iStage];
+#                tmp_list = [cols_sig_list_currentStage[i][j] for j in range(len(cols_sig_list_currentStage[i]))];
+#                h = len(tmp_list);
+#                CStar = 0;
+#                if h-(h_nextmax-nlastCarry) >= 0:
+#                    CStar = int(math.ceil((h-(h_nextmax-nlastCarry))/float(2)));
+#                CStarStar = 0;
+#                if i < 2*width - 3:
+#                    h_left  = len(cols_sig_list_currentStage[i+1]);
+#                    h_leftleft = len(cols_sig_list_currentStage[i+2]);
+#                    CMax = h_nextmax-int(math.ceil(h_leftleft/float(3)));
+#                    CStarStar = 2*CMax - h_left + h_nextmax;
+#                    if CStarStar < 0:
+#                        CStarStar = 0;
+#                else:
+#                    CStarStar = float('inf');
+#                if CStarStar < CStar:
+#                    nC = CStarStar; ncurrentCarry = nC; nFA = nC;
+#                    nj = 2*(h-h_nextmax-2*nFA+nlastCarry);
+#                    if nj == 2 and h-3*nFA >= 3:
+#                        nj = 3;
+#                else:
+#                    nC = CStar; ncurrentCarry = nC;
+#                    if nC > 0:
+#                        nFA = int(math.floor((h-h_nextmax+nlastCarry)/float(2)));
+#                        nHA = nC - nFA;
+#                h_next = h - 2*nFA - nHA - int(math.floor(nj/float(2))) + nlastCarry;
+#                print(h_next);
+#                # use these compressors
+#                if iStage == 0:
+#                    allInputs = tmp_list + lastCarry;
+#                else:
+#                    allInputs = lastCarry + tmp_list;
+#                allOutputs = [Signal(intbv(0)[1:]) for j in range(h_next)];
+#                currentCarry = [Signal(intbv(0)[1:]) for j in range(ncurrentCarry)];
+#                iStartIndex = 0; iEndIndex = 3*nFA; oStartIndex = 0; oEndIndex = nFA;
+#                for j in range(nFA):
+#                    FA_ins = FA(currentCarry[oStartIndex+j],allOutputs[oStartIndex+j],allInputs[iStartIndex+3*j],\
+#                        allInputs[iStartIndex+3*j+1],allInputs[iStartIndex+3*j+2]);
+#                    instances_list.append(FA_ins);
+#                iStartIndex = iEndIndex; iEndIndex = iStartIndex + 2*nHA; 
+#                oStartIndex = oEndIndex; oEndIndex = oStartIndex + nHA;
+#                for j in range(nHA):
+#                    HA_ins = HA(currentCarry[oStartIndex+j],allOutputs[oStartIndex+j],allInputs[iStartIndex+2*j],allInputs[iStartIndex+2*j+1]);
+#                    instances_list.append(HA_ins);
+#                # high order approximate compressor's inputs
+#                iStartIndex = iEndIndex; iEndIndex = iStartIndex + nj;
+#                oStartIndex = oEndIndex; oEndIndex = oStartIndex + int(math.ceil(nj/float(2)));
+#                if nj > 0:    
+#                    AC_inputs_list = [allInputs[j] for j in range(iStartIndex,iEndIndex)];
+#                    vInputs = Signal(intbv(0)[iEndIndex-iStartIndex:]);
+#                    slice_shadower_ins = slice_shadower(vInputs,ConcatSignal(*reversed(AC_inputs_list)));
+#                    AC_outputs_vec = Signal(intbv(0)[int(math.ceil(nj/float(2))):]);
+#                    HighOrderAC_ins = highorderAC(AC_outputs_vec,vInputs,nj);
+#                    for j in range(int(math.ceil(nj/float(2)))):
+#                        allOutputs[oStartIndex+j] = AC_outputs_vec(j);
+#                        print("the %s stage, the %s column, the %s element" % (iStage+1,i,oStartIndex+j));
+#                    instances_list.append(slice_shadower_ins);
+#                    instances_list.append(HighOrderAC_ins);
+#                #remaining bits
+#                iStartIndex = iEndIndex; iEndIndex = len(allInputs);
+#                oStartIndex = oEndIndex; oEndIndex = h_next;
+#                for j in range(iStartIndex,iEndIndex):
+#                    index = j - iStartIndex;
+#                    allOutputs[index + oStartIndex] = allInputs[j];
+#                cols_sig_list_nextStage.append(allOutputs);
+#                nlastCarry  = ncurrentCarry;
+#                lastCarry = currentCarry;
+#        else:
+#            nlastCarry = 0; lastCarry = [];
+#            ncurrentCarry = 0; currentCarry = [];
+#            for i in range(2*width-1):
+#                nFA = 0; nHA = 0; nC = 0;
+#                h_next = 0; h_nextmax = height_evolution[iStage];
+#                tmp_list = [cols_sig_list_currentStage[i][j] for j in range(len(cols_sig_list_currentStage[i]))];
+#                h = len(tmp_list);
+#                if h-(h_nextmax-nlastCarry) >= 0:
+#                    nC = int(math.ceil((h-(h_nextmax-nlastCarry))/float(2)));
+#                ncurrentCarry = nC;
+#                if nC > 0:
+#                    nFA = int(math.floor((h-h_nextmax+nlastCarry)/float(2)));
+#                    nHA = nC - nFA;
+#                h_next = h - 2*nFA - nHA + nlastCarry;
+#                allInputs = tmp_list + lastCarry;
+#                allOutputs = [Signal(intbv(0)[1:]) for j in range(h_next)];
+#                currentCarry = [Signal(intbv(0)[1:]) for j in range(ncurrentCarry)];
+#                iStartIndex = 0; iEndIndex = 3*nFA; oStartIndex = 0; oEndIndex = nFA;
+#                for j in range(nFA):
+#                    FA_ins = FA(currentCarry[oStartIndex+j],allOutputs[oStartIndex+j],allInputs[iStartIndex+3*j],\
+#                        allInputs[iStartIndex+3*j+1],allInputs[iStartIndex+3*j+2]);
+#                    instances_list.append(FA_ins);
+#                iStartIndex = iEndIndex; iEndIndex = iStartIndex + 2*nHA; 
+#                oStartIndex = oEndIndex; oEndIndex = oStartIndex + nHA;
+#                for j in range(nHA):
+#                    HA_ins = HA(currentCarry[oStartIndex+j],allOutputs[oStartIndex+j],allInputs[iStartIndex+2*j],allInputs[iStartIndex+2*j+1]);
+#                    instances_list.append(HA_ins);
+#                iStartIndex = iEndIndex; iEndIndex = len(allInputs);
+#                oStartIndex = oEndIndex; oEndIndex = h_next;
+#                #remaining bits
+#                for j in range(iStartIndex,iEndIndex):
+#                    index = j - iStartIndex;
+#                    allOutputs[index + oStartIndex] = allInputs[j];
+#                cols_sig_list_nextStage.append(allOutputs);
+#                nlastCarry  = ncurrentCarry;
+#                lastCarry = currentCarry;
+#        cols_sig_list_currentStage = cols_sig_list_nextStage;
+#        cols_sig_list_nextStage = [];
+#        iStage += 1;
+#    outs_list = [];
+#    for i in range(len(cols_sig_list_currentStage)):
+#        outs_list += cols_sig_list_currentStage[i];
+#    outs_vec = ConcatSignal(*reversed(outs_list));
+#    @always_comb
+#    def comb():
+#        OUTS.next = outs_vec;
+#    return instances_list,comb;
+
 @block
-def TCAS18(OUTS,INPUTS,width,height_evolution):
+def TCAS18(OUTS,INPUTS,width,height_evolution,approx_step_num,is_trunc):
     cols_sig_list_currentStage = [];
     cols_sig_list_nextStage = [];
     instances_list = [];
     startIndex = 0; endIndex = 0;
     iStage = 0;
     for i in range(2*width-1):
-        col_len = width - abs(i-width+1);
+        col_len = 0;
+        if is_trunc and i < width-1:
+            col_len = 0;
+        else:
+            col_len = width - abs(i-width+1);
         endIndex = startIndex + col_len;
         tmp_list = [];
         for j in range(startIndex,endIndex):
@@ -158,7 +322,7 @@ def TCAS18(OUTS,INPUTS,width,height_evolution):
         startIndex = endIndex;
 
     while not check_stop(cols_sig_list_currentStage):
-        if iStage < 2:
+        if iStage < approx_step_num:
             # LSP parts
             for i in range(width):
                 if len(cols_sig_list_currentStage[i]) <= 2:
@@ -294,7 +458,10 @@ def TCAS18(OUTS,INPUTS,width,height_evolution):
         iStage += 1;
     outs_list = [];
     for i in range(len(cols_sig_list_currentStage)):
-        outs_list += cols_sig_list_currentStage[i];
+        if len(cols_sig_list_currentStage[i]) == 0:
+            outs_list.append(intbv(0)[1:]);
+        else:
+            outs_list += cols_sig_list_currentStage[i];
     outs_vec = ConcatSignal(*reversed(outs_list));
     @always_comb
     def comb():
@@ -476,14 +643,87 @@ def ISCAS18(OUTS,INPUTS,width,truncWidth,height_evolution):
         OUTS.next = outs_vec;
     return instances_list,comb;
 
-def tcas_finalstage_size(width,height_evolution):
+#def tcas_finalstage_size(width,height_evolution):
+#    bm = []; bm_next = [];
+#    for i in range(2*width-1):
+#        col_len = width - abs(i-width+1);
+#        bm.append(col_len);
+#    iStage = 0;
+#    while not check_stop_bm(bm):
+#        if iStage < 2:
+#            # LSB
+#            for i in range(width):
+#                if bm[i] <= 2:
+#                    bm_next.append(bm[i]);
+#                else:
+#                    bm_next.append(int(math.ceil(bm[i]/float(2))));
+#            # MSB
+#            nlastCarry = 0; ncurrentCarry = 0;
+#            for i in range(width,2*width-1):
+#                # compute number of all compressors
+#                nFA = 0; nHA = 0; nj = 0; nC = 0;
+#                h_next = 0;
+#                h_nextmax = height_evolution[iStage];
+                
+#                h = bm[i];
+#                CStar = 0;
+#                if h-(h_nextmax-nlastCarry) >= 0:
+#                    CStar = int(math.ceil((h-(h_nextmax-nlastCarry))/float(2)));
+#                CStarStar = 0;
+#                if i < 2*width - 3:
+#                    h_left  = bm[i+1];
+#                    h_leftleft = bm[i+2];
+#                    CMax = h_nextmax-int(math.ceil(h_leftleft/float(3)));
+#                    CStarStar = 2*CMax - h_left + h_nextmax;
+#                    if CStarStar < 0:
+#                        CStarStar = 0;
+#                else:
+#                    CStarStar = float('inf');
+#                if CStarStar < CStar:
+#                    nC = CStarStar; ncurrentCarry = nC; nFA = nC;
+#                    nj = 2*(h-h_nextmax-2*nFA+nlastCarry);
+#                    if nj == 2 and h-3*nFA >= 3:
+#                        nj = 3;
+#                else:
+#                    nC = CStar; ncurrentCarry = nC;
+#                    if nC > 0:
+#                        nFA = int(math.floor((h-h_nextmax+nlastCarry)/float(2)));
+#                        nHA = nC - nFA;
+#                h_next = h - 2*nFA - nHA - int(math.floor(nj/float(2))) + nlastCarry;
+#                bm_next.append(h_next);
+#                nlastCarry  = ncurrentCarry;
+#        else:
+#            nlastCarry = 0; ncurrentCarry = 0;
+#            for i in range(2*width-1):
+#                nFA = 0; nHA = 0; nC = 0;
+#                h_next = 0; h_nextmax = height_evolution[iStage];
+#                h = bm[i];
+#                if h-(h_nextmax-nlastCarry) >= 0:
+#                    nC = int(math.ceil((h-(h_nextmax-nlastCarry))/float(2)));
+#                ncurrentCarry = nC;
+#                if nC > 0:
+#                    nFA = int(math.floor((h-h_nextmax+nlastCarry)/float(2)));
+#                    nHA = nC - nFA;
+#                h_next = h - 2*nFA - nHA + nlastCarry;
+#                bm_next.append(h_next);
+#                nlastCarry  = ncurrentCarry;
+#        bm = bm_next; bm_next = [];
+#        print(bm);
+#        iStage += 1;
+#    return bm;
+
+def tcas_finalstage_size(width,height_evolution,approx_step_num,is_trunc):
     bm = []; bm_next = [];
     for i in range(2*width-1):
-        col_len = width - abs(i-width+1);
+        col_len = 0;
+        if i < width-1 and is_trunc:
+            col_len = 0;
+        else:
+            col_len = width - abs(i-width+1);
         bm.append(col_len);
     iStage = 0;
     while not check_stop_bm(bm):
-        if iStage < 2:
+        if iStage < approx_step_num:
             # LSB
             for i in range(width):
                 if bm[i] <= 2:

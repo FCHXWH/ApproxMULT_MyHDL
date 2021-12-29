@@ -1,4 +1,0 @@
-The sum of error distance is 535059931136
-The final MED is 31892.05712890625
-The total error time is 12736451
-The final error rate is 0.7591516375541687

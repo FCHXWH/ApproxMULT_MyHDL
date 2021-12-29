@@ -13,7 +13,7 @@
     <RootNamespace>ApproxMULT_MyHDL</RootNamespace>
     <InterpreterId>Global|PythonCore|3.9</InterpreterId>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>"JsonFiles/CompressorTree_CEOA5000.json" "ILP_ApproxMult" "ISCAS20_addKoggeStone.txt" "12" 1</CommandLineArguments>
+    <CommandLineArguments>"CompressorTree_CEOA115.json" "ILP_ApproxMult" "test.txt" 8 1</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
