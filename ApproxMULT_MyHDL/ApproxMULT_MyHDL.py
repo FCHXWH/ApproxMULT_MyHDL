@@ -166,7 +166,7 @@ def CompressorTree(OUTS,INPUTS,width,stages):
             for k in range(len(iH_list)):
                 H_ins = HA(cols_sig_list_nextStage[j+1][startIndex_l+k],cols_sig_list_nextStage[j][startIndex+k],\
                     cols_sig_list_currentStage[j][iH_list[k][0]],cols_sig_list_currentStage[j][iH_list[k][1]]);
-                print("HA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
+                #print("HA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
                 instances_list.append(H_ins);
             # connect FA output bits
             startIndex = endIndex + 1; endIndex = startIndex + nF_out - 1;
@@ -175,7 +175,7 @@ def CompressorTree(OUTS,INPUTS,width,stages):
                 F_ins = FA(cols_sig_list_nextStage[j+1][startIndex_l+k],cols_sig_list_nextStage[j][startIndex+k],\
                     cols_sig_list_currentStage[j][iF_list[k][0]],cols_sig_list_currentStage[j][iF_list[k][1]],\
                     cols_sig_list_currentStage[j][iF_list[k][2]]);
-                print("FA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
+                #print("FA cout: %s %s %s; sum: %s %s %s" % (i+1,j+1,startIndex_l+k,i+1,j,startIndex+k));
                 instances_list.append(F_ins);
             # connect AC32 output bits
             startIndex = endIndex + 1; endIndex = startIndex + nAC32_out - 1;
